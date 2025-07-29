@@ -1,0 +1,67 @@
+1. Open GitHub account and navigate to GTM_PS_BATCH12.
+
+2.  click on branching dropdown ->  click on view all branches link.
+
+3.  Create new branch.
+    ->  click on New branch button.
+    ->  provide branch name e.g. dy_test_branch.
+    ->  click on create New Branch button.
+    ->  verify your branch is created successfully.
+    ->  branch name should be visible in branch list
+
+4.  Pull feature branch in git Terminal
+    ->  Open git terminal in repository folder.
+    ->  check current active branch with command 
+        ->  git branch : main branch should show in green color
+    
+    ->  update repo with below command
+         ->  git pull
+         ->  It will show all the branches we have created.
+
+5. switch to feature branch
+   ->  git checkout <branch_name>
+   ->  it will show this msg in terminal :
+       Switched to a new branch 'dy_test_branch'
+
+6.  check active branch again with below command
+   ->  git branch
+   ->  new feature branch should show in green color
+
+7.  Create a file inside your folder in the repo folder locally, and Add some content in the file.
+    e.g.   dy_test_feature_file.txt
+
+8.  Navigate to back to terminal
+
+9. check file status with below command
+   ->  git status :  new file should show in red color
+
+10.  Add file to git with below command
+   ->  git add <filepath>
+
+11.  Check the file status again, it will show in green color
+   ->  git status
+
+12.  Initiate commit operation with below command
+    ->  git commit -m "msg"
+
+13.  Initiate the push operation with below command
+    -> git push :  it will push code to git repo on server.
+
+14.  Check your files inside your folder in specific branch on
+     git server repo.
+     ->  Your file should be visible their.
+
+
+15.  Create a pull request and merge the changes.
+     ->  click on create pull request button and provide reviewer name
+     ->  Add description about code changes you have done.
+
+
+
+
+
+
+
+    
+    
+
