@@ -120,3 +120,28 @@ print(LHS == RHS) # True
 # https://sqatools.in/python-basic-programs/
 # solve atleast 10 programs from this
 
+
+# Home work
+"""
+# (a+b)*(a-b) = a^2 - b^2
+# (a+b)^3 = a^3 + b^3 + 3ab(a+b)
+# calculate simple interest
+A = P(1+rt)
+P = Principle
+r = rate of interest
+t = time in years
+
+# calculate compound interest
+
+A = P (1+r/n)^nt
+r = rate of interest
+t = time in year
+P = Principle
+n = number of times interest applied the time period
+# 
+
+# Pythgorous Theorem
+# a2  = b2 + c2
+
+
+"""
