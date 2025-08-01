@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69b5e4e5-e175-4d10-bf97-c9d9c84d67a6" name="Changes" comment="Adding first file to git from pycharm">
+    <list default="true" id="70993d54-d03d-45da-8d51-3e8b02eaaabc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vivekanandan/ddd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/sqatools/GTM_PS_BATCH12.git&quot;,
-    &quot;accountId&quot;: &quot;7fd1627c-a170-4731-a841-dc233af91dcc&quot;
+    &quot;accountId&quot;: &quot;afc0b589-318d-47f6-8ca7-9d7667f33f06&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -72,7 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "configurable.group.project",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -256,15 +258,14 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
-        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69b5e4e5-e175-4d10-bf97-c9d9c84d67a6" name="Changes" comment="" />
+      <changelist id="70993d54-d03d-45da-8d51-3e8b02eaaabc" name="Changes" comment="" />
       <created>1753889078920</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
