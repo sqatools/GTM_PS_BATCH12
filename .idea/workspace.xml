@@ -85,7 +85,6 @@
   <component name="RunManager" selected="Python.tesr">
     <configuration name="first_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -108,7 +107,6 @@
     </configuration>
     <configuration name="python_second" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -131,7 +129,6 @@
     </configuration>
     <configuration name="retest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -154,7 +151,6 @@
     </configuration>
     <configuration name="tesr" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -177,7 +173,6 @@
     </configuration>
     <configuration name="test1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -200,7 +195,6 @@
     </configuration>
     <configuration name="test1new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -223,7 +217,6 @@
     </configuration>
     <configuration name="testnew" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
