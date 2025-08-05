@@ -78,7 +78,6 @@ print("f4 :", f4, type(f4))
 # f4 : -56.78 <class 'float'>
 
 
-
 print("_" * 50)
 ############ complex ############
 """
@@ -92,17 +91,16 @@ Properties:
 
 p1 = 10 + 20j
 print(p1, type(p1))
-print("real value :", p1.real) # real value : 10.0
-print("imaginary value :", p1.imag) # imaginary value : 20.0
+print("real value :", p1.real)  # real value : 10.0
+print("imaginary value :", p1.imag)  # imaginary value : 20.0
 
-p2 = -50 -40j
+p2 = -50 - 40j
 print(p2, type(p2))
 # (-50-40j) <class 'complex'>
 
 add_complex_number = p1 + p2
 print(add_complex_number)
 # (-40-20j)
-
 
 
 print("_" * 50)
@@ -129,11 +127,11 @@ What can we say but thank you
 
 print(s1, type(s1))  # <class 'str'>
 
-print("_"*50)
+print("_" * 50)
 print(s2, type(s2))
 # Hello good morning <class 'str'>
 
-print("_"*50)
+print("_" * 50)
 print(s3, type(s3))
 """
 Thank you, India and England. This was a Test series of the highest order. 
@@ -155,10 +153,10 @@ str4 = "Hello"
 -5 -4  -3  -2  -1  -ve
 """
 
-print(str4[0])   # H +ve
+print(str4[0])  # H +ve
 print(str4[-5])  # H -ve
 
-print(str4[3], str4[-2]) # l l
+print(str4[3], str4[-2])  # l l
 
 print("_" * 50)
 ################## List #################
@@ -173,7 +171,7 @@ Properties:
     employee management.
 """
 
-list1 = [3, 4.5, 5+7j,  'Hello', [7, 8, 3], (2, 5, 8), {'a': 123}, {4, 6, 7}, True]
+list1 = [3, 4.5, 5 + 7j, 'Hello', [7, 8, 3], (2, 5, 8), {'a': 123}, {4, 6, 7}, True]
 
 print(list1, type(list1))
 # [3, 4.5, (5+7j), 'Hello', [7, 8, 3], (2, 5, 8), {'a': 123}, {4, 6, 7}, True] <class 'list'>
@@ -188,8 +186,7 @@ list2 = [5, 7, 9, 3]
 """
 
 print(list2[1])  # 7
-print(list2[-3]) # 7
-
+print(list2[-3])  # 7
 
 list3 = [6, 7, 9]
 list3.append(100)
@@ -198,8 +195,6 @@ print(list3, type(list3))
 list3.insert(0, 700)
 print(list3, type(list3))
 # [700, 6, 7, 9, 100] <class 'list'>
-
-
 
 
 print("_" * 50)
@@ -225,13 +220,87 @@ print(tup2, type(tup2))
 
 tup3 = (5, 7, 99)
 print(tup3[2])  # 99
-print(tup3[-2]) # 7
+print(tup3[-2])  # 7
 
 print(tup2[4])  # (1, 6, 2)
-print(tup2[-4]) # {2, 6, 7}
-
+print(tup2[-4])  # {2, 6, 7}
 
 var1 = "uma"
 var2 = "devi"
 var3 = var1 + var2
 print(var3)
+
+print("_" * 50)
+############################### Dictionary Data Type ######################
+"""
+# Properties:
+->  dict is mutable datatype, that we can modify any point of time.
+->  dict store data in key:value format with curly braces e.g  {'a': 123}
+->   dict only contains uniques keys, duplicate keys are not allowed.
+    if we define any duplicate key, then it consider the latest define value
+->  Only immutable data type can be key in the dict. e.g int, float, complex, string, tuple, boolean.
+->  There is restriction of value data in the dict. all type of data can be value in dict.
+->  Dict store data in LIFO ( LAST IN FIRST OUT ) format.   
+->  Dict does not follow indexing.
+"""
+
+dict1 = {'name': 'Rahul', 'age': 25, 'address': 'Mumbai, boriwali', 'phone': 7897987987, 'email': 'rahul@gmail.com'}
+print(dict1, type(dict1))
+# {'name': 'Rahul', 'age': 25, 'address': 'Mumbai', 'phone': 7897987987, 'email': 'rahul@gmail.com'} <class 'dict'>
+
+print("Name :", dict1['name'])
+# Name : Rahul
+print("Age :", dict1['age'])
+# Age : 25
+
+# dict is mutable datatype, that we can modify any point of time.
+dict1['country'] = "India"
+print(dict1)
+
+# 'name': 'Rahul', 'age': 25, 'address': 'Mumbai, boriwali', 'phone': 7897987987, 'email': 'rahul@gmail.com', 'country': 'India'}
+
+
+print("_" * 50)
+# dict only contains uniques keys, duplicate keys are not allowed.
+#     if we define any duplicate key, then it will consider the latest define value
+
+dict2 = {'a': 123, 'b': 567, 'c': 789, 'a': 777}
+print(dict2)
+# {'a': 777, 'b': 567, 'c': 789}
+
+print("_" * 50)
+###############################
+# Only immutable data type can be key in the dict. e.g int, float, complex, string, tuple, boolean.
+
+dict3 = {
+    5: 5.6,
+    5.77: 'Hello',
+    50 + 30j: [50, 60, 70],
+    'Python': (2, 4, 7),
+    (1, 2, 3): {'a': 123, 'b': 456},
+    True: {4, 5, 7, 12},
+    # [4, 7, 8] : 678            # TypeError: unhashable type: 'list'
+    # {'a': 34} : 'Programming'  # TypeError: unhashable type: 'dict'
+    # {5, 7, 3} : 900            # TypeError: unhashable type: 'set'
+}
+
+print("dict3 :", dict3)
+
+print("_" * 50)
+
+user_info = ['rahul', 'rahul@gmail.com', 787987987, 'mumbai']
+print(user_info[1])
+
+user_info_dict = {'name': 'rahul', 'city': 'mumbai', 'phone': 734673456, 'email': 'rahul@gmail.com'}
+print(user_info_dict['email'])
+
+batch12 = {
+    'st1': {'name': 'pradeep', 'age': 34, 'city': 'mumbai', 'phone': 5678935643},
+    'st2': {'name': 'sourabh', 'age': 30, 'city': 'pune', 'phone': 5463453645},
+    'st3': {'name': 'umadevi', 'age': 38, 'city': 'Bangalore', 'phone': 5654654634},
+    'st4': {'name': 'itishree', 'age': 23, 'city': 'Chennai', 'phone': 788768787},
+}
+
+
+print(batch12['st4']['phone'])
+# 788768787
