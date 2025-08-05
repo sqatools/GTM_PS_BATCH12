@@ -1,5 +1,5 @@
 a=10
-#a:variable
+# a:variable
 # =:assingment
 # 10:data or value of assing variable
 print(a, id(a)) #10 140708911269064
@@ -91,6 +91,4 @@ b=6
 LHS=(a+b)**2
 RHS=a**2+b**2+2*a*b
 print(LHS==RHS)
-
-
 
