@@ -229,3 +229,9 @@ print(tup3[-2]) # 7
 
 print(tup2[4])  # (1, 6, 2)
 print(tup2[-4]) # {2, 6, 7}
+
+
+var1 = "uma"
+var2 = "devi"
+var3 = var1 + var2
+print(var3)
