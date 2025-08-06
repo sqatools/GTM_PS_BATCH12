@@ -301,6 +301,62 @@ batch12 = {
     'st4': {'name': 'itishree', 'age': 23, 'city': 'Chennai', 'phone': 788768787},
 }
 
-
 print(batch12['st4']['phone'])
 # 788768787
+
+
+print("_" * 50)
+##################################### Set data type ###################################
+set1 = {5, 3, 2, 1, 7, 2, 5, 7, 8, 9}
+print(set1, type(set1))
+# {1, 2, 3, 5, 7, 8, 9} <class 'set'>
+
+"""
+# Properties:
+->  Set is mutable data type, we can modify the data at point of time.
+->  Set contains data in curly braces, {}
+->  Set store values in random order.
+->  Set only store unique values, it means duplicate values are not allowed.
+    if try to add same values multiple times, it will consider the one time only.
+->  Set only contains immutable data type as set member. e.g int, float, complex, string, tuple, boolean.
+"""
+
+#  Set is mutable data type, we can modify the data at point of time.
+set2 = {5, 7, 9}
+set2.add(50)
+print(set2, type(set2))
+# {9, 50, 5, 7}
+set2.add(9)
+print(set2, type(set2))
+
+print("_" * 50)
+#  Set only contains immutable data type as set member. e.g int, float, complex, string, tuple, boolean.
+set3 = {5, 7.8, 40 + 50j, 'Python', (3, 5, 7), True}
+print("set3 :", set3)
+
+# set4 = {5, 7.8, 40+50j, 'Python', (3, 5, 7), True, {'A': 123}}
+# print("set4 :", set4)
+# TypeError: unhashable type: 'list'
+# TypeError: unhashable type: 'set'
+# TypeError: unhashable type: 'dict'
+
+
+print("_" * 50)
+##################################### Boolean datatype ###################################
+"""
+Properties:
+->  Boolean is immutable data type.
+->  Boolean data type only contains two values True or False
+->  Boolean data is output of any specific condition of program
+"""
+
+var1 = True
+var2 = False
+print(var1, type(var1))  # True <class 'bool'>
+print(var2, type(var2))  # False <class 'bool'>
+
+a = 50
+b = 70
+c = 50
+print(a == b)  # False
+print(a == c)  # True
