@@ -149,6 +149,53 @@ S3 = """
 40 fghhbbbbbbbjbjbjbbbhbhbhbhbhjbhjbhjbhjbhjbhbhbhjbhjbhbhjbhjbhbhjbhjbhbhjbbbbbbbbbbbbbbbbbbbbbbbbbb
 hjbjbnbn nnbb """
 print(S3,type(S3)) #
+S1="Itishree"
+print (S1[1])  #t +ve indexing
+print (S1[-1]) #e -ve indexing
+print("-"*50)
+S2 = 'Mani'
+print (S2[0],type(S2)) # M +ve indexing <class 'str'>
+print (S2[-4],type(S2))# M -ve indexing <class 'str'>
+###########List################
+l1 =[4,5,-6,7]
+print(l1[2]) # -6 +ve indexing
+print(l1[-3],type(l1)) # 5 -ve indexing
+print("-"*50)
+list1 = [2,0.5,"Hello",]
+print (list1,type(list1)) # [2, 0.5, 'Hello'] <class 'list'>
+print("-"*50)
+l1 = [2,5.9,4+7j,"Hello",[1,7,8],(31,7,8),{1:123},{5,7,8}]
+print (l1,type(l1)) # [2, 5.9, (4+7j), 'Hello', [1, 7, 8], (31, 7, 8), {1: 123}, {8, 5, 7}] <class 'list'>
+print("-"*50)
+list2 = [23,78,99]
+list2.append(100)
+print(list2,type(list2)) # [23, 78, 99, 100] <class 'list'>-Here we have added 100 wkth help of append method
+                         # as a new number to the existing list numbers.
+                         # so we have upddte/modify the data.hence it is mutuable
+print("-"*50)
+l3=[76,87,90,55,200]
+l3.append(2000)
+print(l3,type(l3)) # [76, 87, 90, 55, 200, 2000] <class 'list'>
+###########Tupule################
+tup1 =(98,77,200)
+print (tup1,type(tup1)) # (98, 77, 200) <class 'tuple'>
+tup2 = (5,5.6,"Rema",[3,4.5,7],(1,5,7),{'name:tom'},True,False,None) #(5, 5.6, 'Rema', [3, 4.5, 7], (1, 5, 7), {'name:tom'}, True, False, None) <class 'tuple'>
+print(tup2,type(tup2))
+print("-"*50)
+
+############
+a = 4
+a='hello'
+print(a[0])
+###########
+print("-"*50)
+a = "rema"
+a=4
+print(a)
+
+
+
+
 
 
 
