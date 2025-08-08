@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f81b1b99-e3ba-4e17-b536-f54a846c0300" name="Changes" comment="Adding first file to git from pycharm">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-08-2025_20_16__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Itishree/Python Programming-Test Files/Python-Variables/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/Itishree/Python Programming-Test Files/Python-Variables/new.py" afterDir="false" />
     </list>
@@ -27,7 +28,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -401,14 +401,7 @@
       <option name="project" value="LOCAL" />
       <updated>1753980626029</updated>
     </task>
-    <task id="LOCAL-00019" summary="Adding first file to git from pycharm">
-      <created>1754584606675</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1754584606675</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +420,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding first file to git from pycharm" />
-    <MESSAGE value="Adding practise cod eto main branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding practise cod eto main branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding first file to git from pycharm" />
   </component>
 </project>
