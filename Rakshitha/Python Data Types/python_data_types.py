@@ -1,3 +1,4 @@
+#Session-2
 # python data types
 # 1.Number
 #   *Integer
@@ -74,3 +75,34 @@ print(p2, type(p2))
 add_complex_number=p1+p2
 print(add_complex_number)
 # (-40-20j)
+print("_"*50)
+
+#Session-2
+# 2.Sequential
+# *String
+#Properties
+# ->String is a immutable data type
+# ->we can define with single/double/triple quotes.
+# ->String follows postive and negative indexing
+# ->String can contains any type of data as raw string.
+s1=''
+s2="hello good moring"
+s3="""
+  Thank you, India and England . THis was a Test series of the highest order.
+this was the Ali VS Foreman of cricket. a battle where two heavy weight went blow for blow to make
+the whole world rumble with excitment. A battle where after 25 days of hard cricket we still had no outright
+victories just two champion teams in this own right who have given the red ball some reverence one again in this
+age of T20 extravagance. What can say but thankyou.
+"""
+print(s1, type(s1))
+print(s2,type(s2))
+print(s3, type(s3))
+
+str4="hello"
+# "0 1 2 3 4
+#  h e l l o
+# -5-4-3-2-1"
+print(str4[0])
+print(str4[-5])
+print(str4[3],str4[-2])
+
