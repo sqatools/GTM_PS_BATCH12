@@ -11,6 +11,8 @@
 # 3.Dictionary
 # 4.Set
 # 5.Boolean
+import string
+import time
 
 # * Integer properties:
 # / Integer data type if immutable data types
@@ -105,4 +107,56 @@ str4="hello"
 print(str4[0])
 print(str4[-5])
 print(str4[3],str4[-2])
+print("_"*50)
+
+#* List
+#properties
+# ->List is mutable data type, we can modify/update list values at any point of time.
+# -> list contain values in square bracket Eg: [6,8,7]
+# ->list can contian all types of data types int, float,string, list,tuple,dictionary, set,boolean, complex
+# ->list also follows +ve and -ve indexing as like string.
+# ->Generally we usee list data type, wher we have dynamic data,
+#     Eg:Student registration
+#      employee management.
+
+list1=[3,45,5+7j, 'hello', [7,8,9], (2,5,8), {'a':123}, {4,5,6}]
+print(list1, type(list1))
+list2=[5,7,9,3]
+#  0 1 2 3
+#  5 7 9 3
+# -4-3-2-1
+print(list2[1])
+print(list2[-3])
+print(list2[2], list2[-2])
+
+list3=[6,7,9]
+list3.append(100)
+print(list3,type(list3))
+print(list3)
+print("_"*50)
+"""
+####################### Tuple ####################
+  properties
+->Tuple is immutable data type, we can modify/update tuple
+-> tuple contains values in square bracket eg:(1,2,2)
+->tuple can contain all type of data, int, float, complex,string, list,tuple,dictionary , set,boolean
+-> tuple also follows +ve and -ve indexing as like string and list
+->generally we use tuple data type, where we have fixed data.
+eg:months in year
+   days in week
+"""
+
+tup1=(3,6,9,1)
+print(tup1, type(tup1))
+
+tup2=(3,5.6, 'python', [5,8,7], (7,8,2), {'a':123}, {6,7,8}, True,  False, None)
+print(tup2,type(tup2))
+
+tup3=(8,7,9,55)
+print(tup3[2])
+print(tup3[-2])
+print(tup2[3])
+
+
+
 

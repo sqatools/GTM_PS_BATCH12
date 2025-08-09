@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f81b1b99-e3ba-4e17-b536-f54a846c0300" name="Changes" comment="Adding first file to git from pycharm">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-08-2025_20_16__Changes_.xml" beforeDir="false" />
+    <list default="true" id="14194a80-231f-4d06-acae-77a1e89858a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Itishree/Python Programming-Test Files/Python-Variables/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/Itishree/Python Programming-Test Files/Python-Variables/new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakshitha/Python Data Types/python_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rakshitha/Python Data Types/python_data_types.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="30bGtltbgYb9tx7qx74UlBZL7OY" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -86,7 +85,7 @@
       <recent name="C:\PythonAutomation\GTM_PS_BATCH12\Dharmanand" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.new">
+  <component name="RunManager" selected="Python.python_data_types">
     <configuration name="first_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +129,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_data_types" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_BATCH12" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rakshitha/Python Data Types" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rakshitha/Python Data Types/python_data_types.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="python_second" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,28 +164,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dharmanand/python_second.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="retest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_BATCH12" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dharmanand" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dharmanand/retest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_data_types" />
         <item itemvalue="Python.new" />
         <item itemvalue="Python.first_program" />
         <item itemvalue="Python.python_second" />
         <item itemvalue="Python.testnew" />
-        <item itemvalue="Python.retest" />
       </list>
     </recent_temporary>
   </component>
@@ -420,6 +418,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding first file to git from pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding first file to git from pycharm" />
+    <MESSAGE value="Data types session 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data types session 3" />
   </component>
 </project>
