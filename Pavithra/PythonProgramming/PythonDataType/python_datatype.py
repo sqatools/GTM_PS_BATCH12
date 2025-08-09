@@ -78,6 +78,7 @@ print("f4 :", f4, type(f4))
 # f4 : -56.78 <class 'float'>
 
 
+
 print("_" * 50)
 ############ complex ############
 """
@@ -91,10 +92,10 @@ Properties:
 
 p1 = 10 + 20j
 print(p1, type(p1))
-print("real value :", p1.real)  # real value : 10.0
-print("imaginary value :", p1.imag)  # imaginary value : 20.0
+print("real value :", p1.real) # real value : 10.0
+print("imaginary value :", p1.imag) # imaginary value : 20.0
 
-p2 = -50 - 40j
+p2 = -50 -40j
 print(p2, type(p2))
 # (-50-40j) <class 'complex'>
 
@@ -103,7 +104,9 @@ print(add_complex_number)
 # (-40-20j)
 
 
+
 print("_" * 50)
+
 ############ String ############
 """
 # Properties:
@@ -127,11 +130,11 @@ What can we say but thank you
 
 print(s1, type(s1))  # <class 'str'>
 
-print("_" * 50)
+print("_"*50)
 print(s2, type(s2))
 # Hello good morning <class 'str'>
 
-print("_" * 50)
+print("_"*50)
 print(s3, type(s3))
 """
 Thank you, India and England. This was a Test series of the highest order. 
@@ -153,10 +156,10 @@ str4 = "Hello"
 -5 -4  -3  -2  -1  -ve
 """
 
-print(str4[0])  # H +ve
+print(str4[0])   # H +ve
 print(str4[-5])  # H -ve
 
-print(str4[3], str4[-2])  # l l
+print(str4[3], str4[-2]) # l l
 
 print("_" * 50)
 ################## List #################
@@ -171,7 +174,7 @@ Properties:
     employee management.
 """
 
-list1 = [3, 4.5, 5 + 7j, 'Hello', [7, 8, 3], (2, 5, 8), {'a': 123}, {4, 6, 7}, True]
+list1 = [3, 4.5, 5+7j,  'Hello', [7, 8, 3], (2, 5, 8), {'a': 123}, {4, 6, 7}, True]
 
 print(list1, type(list1))
 # [3, 4.5, (5+7j), 'Hello', [7, 8, 3], (2, 5, 8), {'a': 123}, {4, 6, 7}, True] <class 'list'>
@@ -186,7 +189,8 @@ list2 = [5, 7, 9, 3]
 """
 
 print(list2[1])  # 7
-print(list2[-3])  # 7
+print(list2[-3]) # 7
+
 
 list3 = [6, 7, 9]
 list3.append(100)
@@ -195,6 +199,8 @@ print(list3, type(list3))
 list3.insert(0, 700)
 print(list3, type(list3))
 # [700, 6, 7, 9, 100] <class 'list'>
+
+
 
 
 print("_" * 50)
@@ -220,17 +226,11 @@ print(tup2, type(tup2))
 
 tup3 = (5, 7, 99)
 print(tup3[2])  # 99
-print(tup3[-2])  # 7
+print(tup3[-2]) # 7
 
 print(tup2[4])  # (1, 6, 2)
-print(tup2[-4])  # {2, 6, 7}
+print(tup2[-4]) # {2, 6, 7}
 
-var1 = "uma"
-var2 = "devi"
-var3 = var1 + var2
-print(var3)
-
-print("_" * 50)
 ############################### Dictionary Data Type ######################
 """
 # Properties:
@@ -301,11 +301,10 @@ batch12 = {
     'st4': {'name': 'itishree', 'age': 23, 'city': 'Chennai', 'phone': 788768787},
 }
 
+
 print(batch12['st4']['phone'])
 # 788768787
 
-
-print("_" * 50)
 ##################################### Set data type ###################################
 set1 = {5, 3, 2, 1, 7, 2, 5, 7, 8, 9}
 print(set1, type(set1))
