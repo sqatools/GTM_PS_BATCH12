@@ -218,35 +218,8 @@ print("img:",v1.imag)
 
 #add complex value
 
-#add_bjhjh = P1 +P2  y this is not workinh
+#add_bjhjh = P1 + P2  y this is not workinh
 #print(add_bjhjh)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#4/08/2025
-
-
-#5/08/2025 Dictionary
-
-
-
-#6/08/2025 set
 
 """set ={1,3,5,7,9,12,78}
 set.add(21)
@@ -298,3 +271,6 @@ f=0.8
 
 b= bool()
 """
+
+
+
