@@ -88,3 +88,70 @@ Playwright
 print(s1, type(s1))
 print(s2, type(s2))
 print(s3), type(s3)
+
+#String follows the indexing
+str4 = "Hello"
+
+"""
+0 1 2 3 4 +ve
+H e l l o
+-5 -4 -2 -1 -ve
+"""
+
+print(str4[1])
+print(str4[-5])
+print(str4[-1])
+print(str4[1], str4[-4])
+print("_"*50)
+print('_'*60)
+print("""_"""*84)
+
+"""
+List data type
+List is a mutable data type, we can modify/ update values at any point of time
+List contains values in square bracket e.g. [ 6, 8, 4]
+List contains all type of data int, float, complex, string, list, tuple, dictionary, set,boolean
+List also follows postive, negative indexing like string
+Generally we use list data type, where we have dynamic data. e.g. Studnet Registration,
+employee management.
+
+"""
+list1 = [7, 8.4, 5+7j, 'abc', [1,2,3], (5, 9 ,10), {'a', 84}, {4, 5, 9}, True]
+print( list1, type(list1))
+
+"""
+indexing
+ 0  1  2  3 +ve
+[5, 7, 8, 4]
+-4 -3 -2  -1 -ve
+"""
+print("_"*50)
+print(list1[0])
+print(list1[-3])
+
+print("*"*75)
+
+list3 = [5, 7, 9]
+list3.append(84)
+
+# Select+Ctrl+Click to view function description
+print(list3, type(list3))
+
+print("^"*50)
+
+"""
+Tuple is immutable data type, we can not modify/ update Tuple values
+Tuple contains values in round brackets
+Tuple can contain all data types int, float, complex, string, list, tuple, dict, set, boolean
+"""
+
+tuple1 = (7, 8, 4, 1)
+print(tuple1, type(tuple1))
+
+tuple2 = (1, 2.84, 5+7j, 'Abhi', [8 ,4, 0, 7], (1,2,3), {'a':84},{6, 9 , 12}, None, True, False)
+print(tuple2, type(tuple2))
+
+print("_"*60)
+tup3 = (5, 7 , 90)
+print(tup3[1])
+print(tup3[-2])
