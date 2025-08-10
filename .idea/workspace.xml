@@ -259,7 +259,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f81b1b99-e3ba-4e17-b536-f54a846c0300" name="Changes" comment="Adding first file to git from pycharm" />
+      <changelist id="14194a80-231f-4d06-acae-77a1e89858a7" name="Changes" comment="" />
       <created>1753889078920</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -399,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1753980626029</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Data types session 2">
+      <created>1754744006427</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1754744006427</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Data types session 2">
+      <created>1754744263234</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1754744263234</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +433,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding first file to git from pycharm" />
     <MESSAGE value="Data types session 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data types session 3" />
+    <MESSAGE value="Data types session 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data types session 2" />
   </component>
 </project>
