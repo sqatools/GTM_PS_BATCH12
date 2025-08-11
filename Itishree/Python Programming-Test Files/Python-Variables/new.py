@@ -161,6 +161,7 @@ l1 =[4,5,-6,7]
 print(l1[2]) # -6 +ve indexing
 print(l1[-3],type(l1)) # 5 -ve indexing
 print("-"*50)
+print(l1[2],l1[-3],type(l1)) #-6 5
 list1 = [2,0.5,"Hello",]
 print (list1,type(list1)) # [2, 0.5, 'Hello'] <class 'list'>
 print("-"*50)
@@ -181,20 +182,45 @@ tup1 =(98,77,200)
 print (tup1,type(tup1)) # (98, 77, 200) <class 'tuple'>
 tup2 = (5,5.6,"Rema",[3,4.5,7],(1,5,7),{'name:tom'},True,False,None) #(5, 5.6, 'Rema', [3, 4.5, 7], (1, 5, 7), {'name:tom'}, True, False, None) <class 'tuple'>
 print(tup2,type(tup2))
+print(tup2[2], type(tup2[2]))
+print("-"*50)
+print(tup2[0],type(tup2))  # 5 <class 'tuple'>
+print("-"*50)
+print(tup2[-8],type(tup2)) # 5.6 <class 'tuple'>
+#QUESTION TO ASK
+#how to know the class of a sub class which declares under a main class.
+# for ex:in this tuple how i will know in tup2-what is the class name of (1,5,7)
+
+#########Dictionary Data Type #####################
+print("-"*50)
+dict1 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
+print(dict1,type(dict1))
+#{'a': 2, 'name': 'mani', 'age': 32, 'address': 'BLR', 'email': 'iti.rema@gmail.com'} <class 'dict'>
+
+dict1 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
+
+print("NAME:",dict1['name']) #NAME: mani
+print("AGE:",dict1['age']) #AGE: 32
+
+print("-"*50)
+dict1 = {'a':2,'name':'mani','age':32}
+print(dict1['a'],['name'],type(dict1)) #2 ['name'] <class 'dict'>
+
 print("-"*50)
 
-############
-a = 4
-a='hello'
-print(a[0])
-###########
+dict1['Country'] = "India"
+dict1['Pincode'] = 560037
+print(dict1) # {'a': 2, 'name': 'mani', 'age': 32, 'Country': 'India', 'Pincode': 560037}
 print("-"*50)
-a = "rema"
-a=4
-print(a)
-
-
-
+dict2 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
+dict2['Country','Pincode'] = "India",560037
+print(dict2)
+#{'a': 2, 'name': 'mani', 'age': 32, 'address': 'BLR', 'email': 'iti.rema@gmail.com', ('Country', 'Pincode'): ('India', 560037)}
+#QUESTION TO ASK-how to enter multiple record at once
+print("-"*50)
+dict1 = {'a':2,'name':'mani','age':32,'age':34}
+print(dict1) # {'a': 2, 'name': 'mani', 'age': 34}->No duplicate values .as there are two age key value is here,
+ # it choose in LIFO manner s
 
 
 
