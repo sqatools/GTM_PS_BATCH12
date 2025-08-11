@@ -187,10 +187,11 @@ print("-"*50)
 print(tup2[0],type(tup2))  # 5 <class 'tuple'>
 print("-"*50)
 print(tup2[-8],type(tup2)) # 5.6 <class 'tuple'>
-#QUESTION TO ASK
-#how to know the class of a sub class which declares under a main class.
-# for ex:in this tuple how i will know in tup2-what is the class name of (1,5,7)
-
+print("-"*50)
+tup2 = (5,5.6,"Rema",[3,4.5,7],(1,5,7),{'name:tom'},True,False,None) #(5, 5.6, 'Rema', [3, 4.5, 7], (1, 5, 7), {'name:tom'}, True, False, None) <class 'tuple'>
+print(tup2,type(tup2))
+print(tup2[2], type(tup2[2])) # Rema <class 'str'>
+print(tup2[5], type(tup2[5]),type(tup2)) # {'name:tom'} <class 'set'> <class 'tuple'>
 #########Dictionary Data Type #####################
 print("-"*50)
 dict1 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
@@ -221,9 +222,15 @@ print("-"*50)
 dict1 = {'a':2,'name':'mani','age':32,'age':34}
 print(dict1) # {'a': 2, 'name': 'mani', 'age': 34}->No duplicate values .as there are two age key value is here,
  # it choose in LIFO manner s
+######################SET#############
+set1={1,4,5,6,4,3,7,8,9,7}
+print(set1,type(set1)) # {1, 3, 4, 5, 6, 7, 8, 9} <class 'set'>
+set1.add(100)
+print(set1,type(set1))#{1, 3, 4, 5, 6, 7, 8, 9, 100} <class 'set'>
 
-
-
+# New value added as 100 in existing set list.so it is mutuable.We have use 'ADD' method for set to add new value
+#QUESTION TO ASK-why append cant use for set data type to add new value
+#Same for list why add cant be used to add new value
 
 
 
