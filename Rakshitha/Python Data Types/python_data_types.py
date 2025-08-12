@@ -226,3 +226,50 @@ print(batch12['str3'])
 print(batch12['str2']['phone'])
 #{'name': 'pradeep', 'age': 28, 'city': 'mumbai', 'phone': 7418529631}
 774158251
+print("_"*50)
+##################### set ################
+set1={5,6,7,4,8,6,9}
+print(set1, type(set1))
+#{4, 5, 6, 7, 8, 9} <class 'set'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
