@@ -203,9 +203,9 @@ dict3={
     'python': (2,4,7),
     (1,2,3): {'a':123, 'b':456},
     True: {4,5,6,7},
-#     [4,5,7]: 685, #TypeError: unhashable type: 'list'
-#     {'a':'abc'}: 'programing', #unhashable type: 'list'
-#     {5,5,6,8}: 900  #unhashable type: 'list'
+    # #TypeError: unhashable type: 'list'
+    #ograming', #TypeError: unhashable type: 'dict'
+    #{5,5,6,8}: 900  #TypeError: unhashable type: 'set'
 }
 print("dict3:", dict3)
 #dict3: {5: 56, 5.77: 'hello', (50+30j): [50, 60, 70], 'python': (2, 4, 7), (1, 2, 3): {'a': 123, 'b': 456}, True: {4, 5, 6, 7}}
@@ -232,6 +232,40 @@ set1={5,6,7,4,8,6,9}
 print(set1, type(set1))
 #{4, 5, 6, 7, 8, 9} <class 'set'>
 
+#set is mutable dat type, we can modify the data at point of time
+set2={7,2,3,5,8,}
+set2.add(40)
+print(set2,type(set2))
+#{2, 3, 5, 7, 8, 40} <class 'set'>
+
+set2.add(100)
+print(set2, type(set2))
+#{2, 3, 100, 5, 7, 8, 40} <class 'set'>
+
+#set only contain immutable data type as set member Eg: int,float,complex,string,tuple,boolean
+set3={5,6.4, 'python', 40+50j, (5,2,8), True}
+print("set:", set3)
+#set: {True, 5, 'python', 6.4, (5, 2, 8), (40+50j)}
+
+set4={5,7.6,40+58j,'python',True,}
+print("set4", set4)
+[7,8,9] #TypeError: unhashable type: 'list'
+{4,5,6} #TypeError: unhashable type: 'set'
+{'a':123} #TypeError: unhashable type: 'dict'
+print("_"*50)
+
+############## Boolean #############
+var1=True
+var2=False
+print(var1, type(var1))
+print(var2, type(var2))
+#True <class 'bool'>
+#False <class 'bool'>
+a=50
+b=60
+c=50
+print(a==b) #False
+print(a==c) #True
 
 
 
