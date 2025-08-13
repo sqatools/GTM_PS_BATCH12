@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14194a80-231f-4d06-acae-77a1e89858a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rakshitha/Python Data Types/Data type conversion.py" afterDir="false" />
+    <list default="true" id="70993d54-d03d-45da-8d51-3e8b02eaaabc" name="Changes" comment="Adding first file to git from pycharm">
+      <change afterPath="$PROJECT_DIR$/PradeepHubballi/PythonProgramming/Class_Aug13-2025.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,28 @@
       <recent name="C:\PythonAutomation\GTM_PS_BATCH12\Dharmanand" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Data type conversion">
+  <component name="RunManager" selected="Python.Class_Aug13-2025">
+    <configuration name="Class_Aug13-2025" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_BATCH12" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PradeepHubballi/PythonProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PradeepHubballi/PythonProgramming/Class_Aug13-2025.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Data type conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,28 +193,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_second" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_BATCH12" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dharmanand" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dharmanand/python_second.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tesr" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Class_Aug13-2025" />
         <item itemvalue="Python.Data type conversion" />
         <item itemvalue="Python.python_data_types" />
         <item itemvalue="Python.new" />
         <item itemvalue="Python.first_program" />
-        <item itemvalue="Python.python_second" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754981945259</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding first file to git from pycharm">
+      <created>1755095967091</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1755095967091</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,8 +430,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding first file to git from pycharm" />
     <MESSAGE value="Data types session 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data types session 3" />
+    <MESSAGE value="Adding first file to git from pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding first file to git from pycharm" />
   </component>
 </project>
