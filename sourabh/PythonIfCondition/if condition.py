@@ -1,4 +1,4 @@
-marks = int("enter your marks")
+marks = int(input("enter your marks:"))
 if marks >30 and marks <30:
     print("passed with 3rd division")
 elif marks >50 and marks<60:
