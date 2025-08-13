@@ -76,9 +76,8 @@ if n1%3 == 0 and n1%5 == 0:
 else:
     print("This number is not divisible by 3 and 5 :", n1)
 
+print("_" * 50)
 
-
-print("_"*50)
 # write a python program to check given number is divisible by 3 or 5
 n2 = 23
 
