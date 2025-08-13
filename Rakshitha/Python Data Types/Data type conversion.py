@@ -153,20 +153,3 @@ print(l1,type(l1)) #[78, 4, 58, 6] <class 'list'>
 t1=tuple(s1)
 print(t1,type(t1)) #(78, 4, 58, 6) <class 'tuple'>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
