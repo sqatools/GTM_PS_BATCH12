@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14194a80-231f-4d06-acae-77a1e89858a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rakshitha/Python If Condition/Python_if_condition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakshitha/Python If Condition/practicing if condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakshitha/Python Data Types/Data type conversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakshitha/Python Data Types/Data type conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rakshitha/Python Data Types/Data type conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakshitha/Python Data Types/python_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rakshitha/Python Data Types/python_data_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakshitha/repo_file.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +86,9 @@
       <recent name="C:\PythonAutomation\GTM_PS_BATCH12\Dharmanand" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Python_if_condition">
+  <component name="RunManager" selected="Python.Data type conversion">
     <configuration name="Data type conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -113,31 +108,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python_if_condition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rakshitha/Python If Condition" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rakshitha/Python If Condition/Python_if_condition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="first_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -160,7 +132,6 @@
     </configuration>
     <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -182,7 +153,6 @@
     </configuration>
     <configuration name="python_data_types" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -202,9 +172,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_second" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_BATCH12" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dharmanand" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dharmanand/python_second.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tesr" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -227,7 +218,6 @@
     </configuration>
     <configuration name="test1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GTM_PS_BATCH12" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python_if_condition" />
         <item itemvalue="Python.Data type conversion" />
         <item itemvalue="Python.python_data_types" />
         <item itemvalue="Python.new" />
         <item itemvalue="Python.first_program" />
+        <item itemvalue="Python.python_second" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +259,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14194a80-231f-4d06-acae-77a1e89858a7" name="Changes" comment="" />
+      <changelist id="f81b1b99-e3ba-4e17-b536-f54a846c0300" name="Changes" comment="Adding first file to git from pycharm" />
       <created>1753889078920</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -416,14 +406,7 @@
       <option name="project" value="LOCAL" />
       <updated>1754981945259</updated>
     </task>
-    <task id="LOCAL-00020" summary="Data types session 4">
-      <created>1755002377171</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1755002377171</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +426,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding first file to git from pycharm" />
     <MESSAGE value="Data types session 3" />
-    <MESSAGE value="Data types session 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data types session 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data types session 3" />
   </component>
 </project>
