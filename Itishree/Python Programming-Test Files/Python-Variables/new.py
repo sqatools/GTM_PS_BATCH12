@@ -149,8 +149,88 @@ S3 = """
 40 fghhbbbbbbbjbjbjbbbhbhbhbhbhjbhjbhjbhjbhjbhbhbhjbhjbhbhjbhjbhbhjbhjbhbhjbbbbbbbbbbbbbbbbbbbbbbbbbb
 hjbjbnbn nnbb """
 print(S3,type(S3)) #
+S1="Itishree"
+print (S1[1])  #t +ve indexing
+print (S1[-1]) #e -ve indexing
+print("-"*50)
+S2 = 'Mani'
+print (S2[0],type(S2)) # M +ve indexing <class 'str'>
+print (S2[-4],type(S2))# M -ve indexing <class 'str'>
+###########List################
+l1 =[4,5,-6,7]
+print(l1[2]) # -6 +ve indexing
+print(l1[-3],type(l1)) # 5 -ve indexing
+print("-"*50)
+print(l1[2],l1[-3],type(l1)) #-6 5
+list1 = [2,0.5,"Hello",]
+print (list1,type(list1)) # [2, 0.5, 'Hello'] <class 'list'>
+print("-"*50)
+l1 = [2,5.9,4+7j,"Hello",[1,7,8],(31,7,8),{1:123},{5,7,8}]
+print (l1,type(l1)) # [2, 5.9, (4+7j), 'Hello', [1, 7, 8], (31, 7, 8), {1: 123}, {8, 5, 7}] <class 'list'>
+print("-"*50)
+list2 = [23,78,99]
+list2.append(100)
+print(list2,type(list2)) # [23, 78, 99, 100] <class 'list'>-Here we have added 100 wkth help of append method
+                         # as a new number to the existing list numbers.
+                         # so we have upddte/modify the data.hence it is mutuable
+print("-"*50)
+l3=[76,87,90,55,200]
+l3.append(2000)
+print(l3,type(l3)) # [76, 87, 90, 55, 200, 2000] <class 'list'>
+###########Tupule################
+tup1 =(98,77,200)
+print (tup1,type(tup1)) # (98, 77, 200) <class 'tuple'>
+tup2 = (5,5.6,"Rema",[3,4.5,7],(1,5,7),{'name:tom'},True,False,None) #(5, 5.6, 'Rema', [3, 4.5, 7], (1, 5, 7), {'name:tom'}, True, False, None) <class 'tuple'>
+print(tup2,type(tup2))
+print(tup2[2], type(tup2[2]))
+print("-"*50)
+print(tup2[0],type(tup2))  # 5 <class 'tuple'>
+print("-"*50)
+print(tup2[-8],type(tup2)) # 5.6 <class 'tuple'>
+print("-"*50)
+tup2 = (5,5.6,"Rema",[3,4.5,7],(1,5,7),{'name:tom'},True,False,None) #(5, 5.6, 'Rema', [3, 4.5, 7], (1, 5, 7), {'name:tom'}, True, False, None) <class 'tuple'>
+print(tup2,type(tup2))
+print(tup2[2], type(tup2[2])) # Rema <class 'str'>
+print(tup2[5], type(tup2[5]),type(tup2)) # {'name:tom'} <class 'set'> <class 'tuple'>
+#########Dictionary Data Type #####################
+print("-"*50)
+dict1 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
+print(dict1,type(dict1))
+#{'a': 2, 'name': 'mani', 'age': 32, 'address': 'BLR', 'email': 'iti.rema@gmail.com'} <class 'dict'>
 
+dict1 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
 
+print("NAME:",dict1['name']) #NAME: mani
+print("AGE:",dict1['age']) #AGE: 32
+
+print("-"*50)
+dict1 = {'a':2,'name':'mani','age':32}
+print(dict1['a'],['name'],type(dict1)) #2 ['name'] <class 'dict'>
+
+print("-"*50)
+
+dict1['Country'] = "India"
+dict1['Pincode'] = 560037
+print(dict1) # {'a': 2, 'name': 'mani', 'age': 32, 'Country': 'India', 'Pincode': 560037}
+print("-"*50)
+dict2 = {'a':2,'name':'mani','age':32,'address':'BLR','email':'iti.rema@gmail.com'}
+dict2['Country','Pincode'] = "India",560037
+print(dict2)
+#{'a': 2, 'name': 'mani', 'age': 32, 'address': 'BLR', 'email': 'iti.rema@gmail.com', ('Country', 'Pincode'): ('India', 560037)}
+#QUESTION TO ASK-how to enter multiple record at once
+print("-"*50)
+dict1 = {'a':2,'name':'mani','age':32,'age':34}
+print(dict1) # {'a': 2, 'name': 'mani', 'age': 34}->No duplicate values .as there are two age key value is here,
+ # it choose in LIFO manner s
+######################SET#############
+set1={1,4,5,6,4,3,7,8,9,7}
+print(set1,type(set1)) # {1, 3, 4, 5, 6, 7, 8, 9} <class 'set'>
+set1.add(100)
+print(set1,type(set1))#{1, 3, 4, 5, 6, 7, 8, 9, 100} <class 'set'>
+
+# New value added as 100 in existing set list.so it is mutuable.We have use 'ADD' method for set to add new value
+#QUESTION TO ASK-why append cant use for set data type to add new value
+#Same for list why add cant be used to add new value
 
 
 
