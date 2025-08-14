@@ -4,3 +4,6 @@ if v1 % 3:
 else:
     if v1 % 7:
         print("cube of the number is ", v1 ** 3)
+
+
+        
