@@ -55,3 +55,11 @@ b=float(input("enter the value: "))
 c=4
 print(a**2 + b**2)
 
+print("_"*50)
+
+#9). Python program to solve this Pythagorous theorem.Theorem : (a2 + b2 = c2)
+a=float(input("enter the value: "))
+b=float(input("enter the value: "))
+c=4
+print(a**2 + b**2)
+
