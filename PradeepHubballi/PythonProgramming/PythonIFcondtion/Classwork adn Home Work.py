@@ -25,7 +25,7 @@
 #########################################################################
 
 Free_unit = int(input("Enter free quota units:"))
-if Free_unit <= 70:
+if Free_unit <= 199:
     print("Free quota used govt of karnataka will pay so no bill enjoy :")
-elif Free_unit >=71 :
+elif Free_unit >= 200:
     print ("Free quota Exceeds  Paid quota 8/Unit rate :",Free_unit*8)
