@@ -80,3 +80,6 @@ print("sum of 1 to 10:", add)
 # home work:
 # 1. write a code add all even number from 1 to 20
 # 2. write a code to multiply value from 1 to 15
+
+print("_" * 50)
+
