@@ -22,7 +22,7 @@ if n1%7==0 and n1%11==0:
 else:
     print("the number is not divisible by 3 and 11:",n1)
 #the number is not divisible by 3 and 11: 3
-print("_"*50)
+
 #1.  write a python program to show exam result as per marks received.
 # marks greater than 30 and less than 50 :
 """
@@ -70,6 +70,7 @@ else:
 #not passed with A excellent performance division
 """
 #marks less than 30: failed in exam
+"""
 marks=int(input("enter your marks:"))
 if marks <30:
     print("passed in exam")
@@ -77,3 +78,44 @@ else:
     print("failed in exam")
 #enter your marks:30
 #failed in exam
+"""
+#python program to print the square of the number if it is divisible 11
+"""
+num=int(input("enter a number:"))
+if num%11==0:
+    print(num**2)
+else:
+    print("Number is not divisible by 11")
+# enter a number:22
+# 484
+# enter a number:31
+# Number is not divisible by 11
+"""
+#to check the authentication of username and password
+"""
+name=input("enter name:")
+password=input("enter password:")
+if name==password:
+    print("it is valid")
+else:
+    print("it is not valid")
+"""
+# enter name:rakshitha
+# enter password:1234
+# it is not valid
+print("_"*50)
+#python program to validate user_id in the list of user_ids.
+"""
+id_list=[1,2,3,4,5,6,7,8]
+id_=int(input("Enter ID number:"))
+if id_ in id_list:
+    print("valid ID")
+else:
+    print("Invalid ID")
+"""
+# Enter ID number:5
+# valid ID
+# Enter ID number:12
+# Invalid ID
+
+#
