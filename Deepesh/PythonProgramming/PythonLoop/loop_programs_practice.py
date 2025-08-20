@@ -72,7 +72,7 @@ print("_"*50)
 # OUTER LOOP DECIDE TOTAL NUMBER OF LINES
 for i in range(1, 8):   #  i = 1
     # INNER LOOP DECIDES NUMBER OF VALUES IN EACH LINE
-    for j in range(1, 6):   #   j = (1, 6)
+    for j in range(1, 6):   # j = (1, 6)
         if i in [1, 7]:
             if j in [1, 5]:
                 print(" ", end=" ")
