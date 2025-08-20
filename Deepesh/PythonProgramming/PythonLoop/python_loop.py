@@ -213,11 +213,6 @@ else:
     print("These string are not anagram :", s1, s2)
 
 
-
-
-
-
-
 """
 num = 15
 prime = True
