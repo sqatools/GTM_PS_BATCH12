@@ -73,7 +73,7 @@ else:
 print("#"*50)
 ##CLASS WORK
 print("#"*50)
-
+#####
 #k > 30 < 50 #third class
 #k>50 and k<60 # second class
 #k>60 and k<100 # first class
@@ -93,6 +93,8 @@ elif k > 100:
 else:
     print ("No result ")
 
+###write a program to check Person is eligible to vote#####
+
 age = int(input("Enter age of a Voter"))
 
 if age >= 18:
@@ -100,7 +102,7 @@ if age >= 18:
 else:
     print("not eligible for voting")
 
-
+###Q3. write a program to check number is iisible by 7 and 11.
 print("#"*50)
 
 h = 14
