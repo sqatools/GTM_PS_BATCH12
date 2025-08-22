@@ -24,8 +24,15 @@
   #    print("total bill as per 10/unit rate :", keb_unit * 10)
 #########################################################################
 
-Free_unit = int(input("Enter free quota units:"))
-if Free_unit <= 199:
-    print("Free quota used govt of karnataka will pay so no bill enjoy :")
-elif Free_unit >= 200:
-    print ("Free quota Exceeds  Paid quota 8/Unit rate :",Free_unit*8)
+#Free_unit = int(input("Enter free quota units:"))
+#if Free_unit <= 199:
+  #  print("Free quota used govt of karnataka will pay so no bill enjoy :")
+#elif Free_unit >= 200:
+   # print ("Free quota Exceeds  Paid quota 8/Unit rate :",Free_unit*8)
+########################
+
+for p in range (2,20,2):
+    print(p,end="  ")
+##2  4  6  8  10  12  14  16  18
+
+
