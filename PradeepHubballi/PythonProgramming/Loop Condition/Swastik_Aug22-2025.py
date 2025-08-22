@@ -16,7 +16,7 @@ pt2 = " "
 for i in range(1, 11):
     for j in range(1, 19):
         if i == 1:
-            if j == [1,2,3,4,9,10,11,12,13,14,15,16,17,18]:
+            if j in [1,2,3,4,9,10,11,12,13,14,15,16,17,18]:
                 print(pt1, end=" ")
             else:
                 print(pt2, end=" ")
@@ -57,12 +57,7 @@ for i in range(1, 11):
                 print(pt1, end=" ")
             else:
                 print(pt2, end=" ")
-        elif i == 9:
-            if j in [1,2,3,4,5,6,7,8,9,10,11,15,16,17,18]:
-                print(pt1, end=" ")
-            else:
-                print(pt2, end=" ")
-        elif i == 10:
+        elif i in [9, 10]:
             if j in [1,2,3,4,5,6,7,8,9,10,11,15,16,17,18]:
                 print(pt1, end=" ")
             else:
