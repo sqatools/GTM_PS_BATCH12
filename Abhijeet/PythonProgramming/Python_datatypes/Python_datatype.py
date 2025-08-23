@@ -155,3 +155,101 @@ print("_"*60)
 tup3 = (5, 7 , 90)
 print(tup3[1])
 print(tup3[-2])
+
+print("%"*50)
+"""
+Dictionary is a mutable data type which we can update at any point
+Dictionary store data in key:value format with curly braces e.g. {'a':5}
+Dictionary contains only unique keys
+If we define any dupliate keys, then it consider the latest value
+Only immutable data types can be key in dictionary 
+i.e. int, float, complex, string, tuple, boolean
+There is no restriction on value of data in dict. All type of data can be value in dictionary
+Dictionary store data in LIFO ( Last in first out) algo
+Dictionary does not follow indexing
+"""
+dict1 = { "Name": "Abhijeet", "Age": 40, "Address": "Pune", "Phone": 7777777778, "Email": "test@test.com"}
+print(dict1, type(dict1))
+print(dict1["Name"])
+#Dictionary is mutable data type that we can modify any point of time
+dict1["Country"] = "India"
+print(dict1)
+dict1["State"] = "Maharashtra"
+print(dict1)
+print("+"*50)
+#Dictionary contains only unique keys. Duplicate keys are not allowed
+#If we define any duplicate key, then it will consider only latest defined value
+dict2 = {"a":123, "b":577, 'c':786, 'a':777}
+print(dict2)
+print("="*50)
+#Only immutable data types can be key in Dict
+dict3 = {
+    5: 5.6,
+    5.77:'Hello',
+    50+30j:[50,60,70],
+    'Python':(2,4,7),
+    (1,2,3): {"a":123, 'b': 456},
+    True :{4, 5, 7, 12},
+    #[1,2]:1
+}
+print(dict3)
+
+print("$"*100)
+
+batch12 = {
+'st1' : {'name': 'Pradeep', 'Age':34, 'City':'Mumbai', 'Phone':234325456},
+'st2' : {'name': 'Sourav', 'Age':30, 'City':'Mumbai', 'Phone':234325456},
+'st3' : {'name': 'Umadevi', 'Age':38, 'City':'Mumbai', 'Phone':234325456},
+'st4' : {'name': 'Itishree', 'Age':23, 'City':'Mumbai', 'Phone':234325456}
+}
+
+print(batch12['st4']['Phone'])
+print("_"*50)
+######Set##########################################
+"""
+Set is mutable data type, modify data at any point of time
+
+"""
+set2 = {5,7,9}
+set2.add(5)
+print(set2, type(set2))
+
+print("+"*50)
+
+###########################SET###################################
+"""
+Set is a mutable data type, we can modify data at any point of time
+It contains data in curly braces {}
+Set store values in random order
+Set only store unique values, it means duplicate values are not allowed
+If we try to add same values multiple times, it will consider it one time only
+Set only contains immutable data types Int, Float, Complex, String, Tuple, Boolean
+Set, list, and dictionary are mutable so set can not contain thse vakues
+
+
+"""
+
+set2 = {5 ,7, 9}
+set2.add(50)
+print(set2, type(set2))
+set3 = {5, 7.8, 40+50j, 'Python', (3,5,7), True}
+print(set3, type(set3))
+
+print("**"*50)
+
+"""
+Boolean is immutable data type
+Boolean data type only contains two values True or False
+Boolean data is output of specific condition of program
+"""
+var1 = True
+var2 = False
+print(var1, type(var1))
+print(var2, type(var2))
+
+a = 50
+b = 70
+c = 50
+print(a==c)
+print(b==c)
+print(a==c)
