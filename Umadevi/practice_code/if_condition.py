@@ -48,7 +48,7 @@ else:
         print("its even")  # it chceks the value which is accepted at fisrt it will print first FIFO
     else:
         print("its odd")
-
+    print("/" * 1000)
       # 1. writr a python probolen  divisible by 3 nd 5
 
 
@@ -72,7 +72,7 @@ elif code3:
 """
 
 
-#wtrite a python pbl max val among thre number
+#write a python pbl max val among thre number
 a=10
 b=60
 c=80
@@ -111,7 +111,7 @@ age= int(input("Enter Your age:"))
 if age>=18 :print("The person is elligible to vote")
 elif age<18 : print("wait for reach after 17 age is vote grow grow grow")
 
-#3. write a prgrm for chcek the nuer is divisible by 7 and 11
+#3. write a prgrm for check the numbers divisible by 7 and 11
 
 qwert=int(input("enter the number"))
 
@@ -120,12 +120,66 @@ if int(qwert)%7 ==0 and int(qwert)%11 ==0:
 
 else:
     print("cannot baby")
+                                                                                         #August 12 class is not happend
+#August 13 th
+
+#Nested If condition > one condition is dependent on another condition
+"""
+if cond1:
+    code
+else:
+    code
+
+#nested if else
+if cond1:
+    code
+
+    if cond2:
+        code
+    else:
+7        code
+     #    this 137 to 140 is  checks the condition depends on only the cond 1   if its cond 1 is  pass it will go to check the cond 2 or starts itself false it wont go into th cond2 itself
+else:
+    code
 
 
+"""
+#Write a python code to describe the interview process with help of nested if condition
+Round1="pass"
+Round2="pass"
+Round3="pass"
 
 
+if Round1=="pass":
+    print("congrats uma r u pass")
 
+    #If uma pass she will go to next round for attend the interview process or else she will go to home
 
+    if Round2=="pass":
+
+        print("uma cracked 2 also")
+        if Round3=="pass":
+
+            print("Uma is selected in TCS with 10 lakhs package")
+    else:
+        print("we can do it try again uma better work hard next do logically code")
+
+print("/"*1000)
+
+#single line of if condition
+var=21
+output ="even" if var%2==0 else "odd"
+print("output:",output)
+print("/"*1000)
+
+# python code to check gn val is available in the list
+
+V1 =13
+list=[12,13,16,12,8,12]
+what= True if V1 in list else False
+print("Results:",what)
+
+print("/"*1000)
 
 
 
