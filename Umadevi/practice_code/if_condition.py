@@ -193,34 +193,42 @@ else :
     print("results",input**3)
     print("Its Not divisible")
 
+#2.
+#doubyt - 2 question
+#August 14th
+#LOOP
 
-#2. calculate the electricity bill as per the unit consumed.
+#For is a keyword for loop in means (it)> will look
 
+List=[2,7,6,8,9,6]
 
-marks =int(input("enter the students marks for show the result:::::"))
-if marks >100:
-    print ("per uniq is 15")
-elif marks<100 and marks>200:
-    print("per uniq is 25")
-elif marks>200:
-    print("per uniq is 30")
-else:
-    print("no amount is dducted")
-
-""""
-Traceback (most recent call last):
-  File "C:\GTM_PS_Batch12_July_2025\GTM_PS_BATCH12\Umadevi\practice_code\if_condition.py", line 200, in <module>
-    marks =(input("enter the students marks for show the result:::::"))
-TypeError: 'int' object is not callable
-
-Process finished with exit code 1
-"""
+for result in List:
+    #print(result)
+    print("indexof",List[1]) #to avoid execiting will go for range
 
 
+                                     #Range
+#syntax
+#range(start,end,step)function.
+#Range output includes start and exclude the end value
+#Range (1,9,1)>> 1,2,3,4,5,,6,7,8
+
+for i in range (1,10,1):
+    print (i)
 
 
+#1. print all odd vale from 1 to 20
 
+for i in range (1,20,2):
+   print (i)
 
+#doubt of how odd will decide
+
+#write apython program to add all the value 1 to 10
+sum=0
+for var in range (1,11,1): #(1, 2,3,4,5,,6,7,8,9,10)
+    sum =sum +var #0+1=1(sum value is this), 1+2=3 ,3+3=6, 6+4=10..............adding the total with range
+    print("addition:",sum)
 
 
 
