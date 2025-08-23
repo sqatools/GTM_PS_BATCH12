@@ -16,7 +16,7 @@ else:
 a1,b=10,10
 print(a1 == b) #this also finr
 if a1 == b:
- print("value are true")
+    print("value are true")
 else:
     print("value are false")
 
@@ -49,7 +49,7 @@ else:
     else:
         print("its odd")
     print("/" * 1000)
-      # 1. writr a python probolen  divisible by 3 nd 5
+    # 1. writr a python probolen  divisible by 3 nd 5
 
 
 number=input("enter the number check")
@@ -59,7 +59,7 @@ if int(num)%2==0 and int(num)%3==0:
 else:
     print("its divisible by 3 nd 5")
 
-                                                        #syntax for elif
+    #syntax for elif
 """
 #elif cond
 
@@ -120,7 +120,7 @@ if int(qwert)%7 ==0 and int(qwert)%11 ==0:
 
 else:
     print("cannot baby")
-                                                                                         #August 12 class is not happend
+    #August 12 class is not happend
 #August 13 th
 
 #Nested If condition > one condition is dependent on another condition
@@ -207,7 +207,7 @@ for result in List:
     print("indexof",List[1]) #to avoid execiting will go for range
 
 
-                                     #Range
+    #Range
 #syntax
 #range(start,end,step)function.
 #Range output includes start and exclude the end value
@@ -219,17 +219,63 @@ for i in range (1,10,1):
 
 #1. print all odd vale from 1 to 20
 
-for i in range (1,20,2):
-   print (i)
-
-#doubt of how odd will decide
+for i in range (1,20,1):
+    print (i)
 
 #write apython program to add all the value 1 to 10
 sum=0
-for var in range (1,11,1): #(1, 2,3,4,5,,6,7,8,9,10)
+for var in range (2,20,2): #(1, 2,3,4,5,,6,7,8,9,10)
     sum =sum +var #0+1=1(sum value is this), 1+2=3 ,3+3=6, 6+4=10..............adding the total with range
     print("addition:",sum)
 
+mul =1
+for va in range (1,15):
+    mul= mul * va
+    print("multi:",mul)
 
 
 
+#August 15 is not class happened
+
+
+#August 18th
+
+#next line end=""
+
+
+
+#Use if condition inside for-loop
+
+#1to 100 which is divisble by 7
+
+for o in range (1,100):
+
+    if o%7==0:
+        print(o)
+
+#program for even or odd  from 1to 20
+
+for u in range(1,20):
+    if u%2==0:
+        print("its even")
+
+    else:
+        print("its odd")
+
+
+#Nested For-LOOP
+#write a program to check given number is prime or not
+"""
+nest= 9
+prime = True
+for A in range (2,nest):
+    if nest%A ==0:
+        prime=False
+if prime :
+    print("this is prime,",nest)
+
+"""
+
+for K in range (1,6):
+    for b in range(1,4):
+        print(K)
