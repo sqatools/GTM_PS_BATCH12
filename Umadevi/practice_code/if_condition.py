@@ -182,6 +182,40 @@ print("Results:",what)
 print("/"*1000)
 
 
+#1. write a python program to print sqaure of the number if it divible by 3 or 7 else print cube
+
+input=int(input("Enter the number"))
+
+if int(input)%3 ==0 or int(input)%7 ==0:
+    print("Its divisible")
+    print("results",input**2)
+else :
+    print("results",input**3)
+    print("Its Not divisible")
+
+
+#2. calculate the electricity bill as per the unit consumed.
+
+
+marks =int(input("enter the students marks for show the result:::::"))
+if marks >100:
+    print ("per uniq is 15")
+elif marks<100 and marks>200:
+    print("per uniq is 25")
+elif marks>200:
+    print("per uniq is 30")
+else:
+    print("no amount is dducted")
+
+""""
+Traceback (most recent call last):
+  File "C:\GTM_PS_Batch12_July_2025\GTM_PS_BATCH12\Umadevi\practice_code\if_condition.py", line 200, in <module>
+    marks =(input("enter the students marks for show the result:::::"))
+TypeError: 'int' object is not callable
+
+Process finished with exit code 1
+"""
+
 
 
 
