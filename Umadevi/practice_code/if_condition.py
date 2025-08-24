@@ -242,8 +242,6 @@ for va in range (1,15):
 
 #next line end=""
 
-
-
 #Use if condition inside for-loop
 
 #1to 100 which is divisble by 7
@@ -276,6 +274,48 @@ if prime :
 
 """
 
-for K in range (1,6):
-    for b in range(1,4):
-        print(K)
+for K in range (1,5): #Total exceute range setting we are
+    for b in range(1,2):
+        print("Address :K:",K)
+        for j in range(1,3 ):
+            print("package :j:", j)
+
+ #August 19 ,2025
+
+# continue met the continue statement ,then it will not execute remaining code. it will next
+
+for Y in range(1,10):
+    if Y in [2,5,7]:
+        continue
+
+    print(Y)
+
+ #break statement - will break when the condition is statisfy
+
+for H in range(1,10):
+    if H ==5:
+        break
+
+    print(H)
+
+
+
+
+#writr a python code to get a list of all the prime number 1 to 100
+
+for Num in range (1,100):
+    prime= True
+
+    for j in range (2,Num):
+
+        if Num %j ==0:
+            prime=False
+            break
+            if prime:
+                print(Num)
+
+            else:
+                continue
+
+
+
