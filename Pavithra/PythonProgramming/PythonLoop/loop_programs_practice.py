@@ -173,12 +173,3 @@ for i in range(1, 6):
 
 #HW: write a python program to design swastik pattern
 # https://automationbysqatools.blogspot.com/2021/08/how-to-print-swastik-pattern-in-python.html
-
-
-
-print("_"*50)
-for i in range(1, 8):
-    if i % 2 == 0:
-        print(i)
-    else:
-        print(i**2)
