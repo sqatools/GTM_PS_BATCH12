@@ -34,7 +34,7 @@ print(lisp)
 
 print(":" * 60)
 
-# int>boolean 1. if its positive value> True <class 'bool'> 2. if its neagative its false
+# int>boolean 1. if its positive value> True <class 'bool'> 2. if its negative its false
 q = 23
 b1 = bool(q)
 print(b1, type(b1))
@@ -68,15 +68,14 @@ print(b1, type(b1))
 f = 0
 b1 = bool(f)
 print(b1, type(b1))
-
+# august 7th is not happen
 # August 8th 2025
 
 # string data conversion
 
 # string > int
 s1 = "new"
-f1 = str(s1)
-print(s1, type(f1))
+f1 = str(s1); print(s1, type(f1))
 s1 = "87656"
 f1 = str(s1)
 print(s1, type(f1))
