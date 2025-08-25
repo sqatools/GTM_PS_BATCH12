@@ -6,7 +6,11 @@
 # elif unit > 200 :  per unit charge is 30
 # else condition
 
+add =1
+for i in range(2, 15, 2):
 
+    add = add + i
+    print(add)
 #
 # # Q1.  Write a python program to print square of the number if it is divisible by 3 or 7 else print cube
 """
