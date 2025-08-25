@@ -13,3 +13,16 @@ for val in num:
         odd+=1
 print(odd)
 print(even)
+
+#Write a program that
+# prints all the numbers from 0 to 6 except 3 and 6 using python.
+
+n = 0
+for i in range(0, 6):
+    if i == 0:
+        print(i)
+        n += 1
+    elif i in [3, 6]:
+        print(i)
+    else:
+        continue
