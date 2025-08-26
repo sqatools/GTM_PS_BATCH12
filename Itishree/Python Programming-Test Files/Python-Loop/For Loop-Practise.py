@@ -254,3 +254,31 @@ j j
 j
 j
 """
+#Write the summation of the all the list values
+"""
+list2 = [5,17,90,12,45,89]
+Total =0
+Total= list2[0]+list2[1]+list2[2]+list2[3]+list2[4]+list2[5]
+print("Total sum of  :",Total)
+"""
+"""
+list2 =[5,7,9,12,45,67]
+total = sum(list2)
+print("Total value:",total)
+"""
+#
+"""
+list2 = [5,17,90,12,45,89]
+Total =0
+for a in list2:
+    Total= Total + a
+print("Total sum of :",Total)
+
+Total sum of : 258
+"""
+list2 = [5,17,90,12,45,89]
+Total =0
+for a in range (len(list2)):#Range starts from 0 ,1,2,3,4,5 and i takes each index value of the list
+    Total= Total + list2[a]
+print("Total sum of :",Total)
+####################
