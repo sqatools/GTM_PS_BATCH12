@@ -35,6 +35,7 @@ get_fact(5)
 ##################################
 
 #function with default parameters value:
+#default paarmeter should be always at the end of list of parameters
 
 def addition_nums(x,y=20,z=30):
     print(f"addition of x: {x}, y{y}, z{z}:",x+y+z)
