@@ -23,13 +23,13 @@ for i in range(1,8):
 
 #################################################
 
-for i in range(1,6):
-    for j in range(1, 10):
-        if i == 1:
-            if j == 5:
+for i in range(1,11):
+    for j in range(1, 15):
+        if i in [1]:
+            if j in [1,2,3,10,11,12,13,14]:
                 print("*", end = "")
             else:
-                print("_", end = "")
+                print("", end = "")
         if i == 2:
             if j in [4,6]:
                 print("*", end="")
