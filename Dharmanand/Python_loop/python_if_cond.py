@@ -112,6 +112,53 @@ if h%7==0 or h%11==0:
 else:
     print("h is not divisible by 7 and 11:", h)
 
+print("#"*50)
+
+k = 3
+
+if k%3 ==0:
+    print("k is divisble by 3:", k)
+else:
+    print("k is not divisible by 3:",k)
+
+
+print("#"*50)
+
+for l in range(1,31):
+    if l%3==0:
+        print(l,end="    ")
+    else:
+        continue
+
+print("#"*50)
+
+v = int(input("Enter the value of v:"))
+
+if v%11 ==0:
+    print("value of v :", v**2)
+else:
+    print("value of v :", v**3)
+
+
+print("#"*50)
+
+x= 1
+if x%1==0:
+    print("x is divisible by 1:",x)
+else:
+    print("x is not divisible by 1:",x)
+
+print("#"*50)
+
+fib = [0,1,2,3]
+z = int(input("Enter the value of z:"))
+
+if z in fib:
+    print("number is fibonacci")
+else:
+    print("number is not fibonacci")
+
+
 
 
 

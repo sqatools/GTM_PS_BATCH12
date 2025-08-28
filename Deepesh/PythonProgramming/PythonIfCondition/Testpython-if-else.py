@@ -1,4 +1,4 @@
-n1 = 15
+n1 = 16
 
 if n1%3 == 0 and n1%5 == 0:
     print("This number is divisible by 3 and 5 :", n1)
