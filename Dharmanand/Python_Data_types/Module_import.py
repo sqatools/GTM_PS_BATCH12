@@ -16,8 +16,37 @@ print("#"*50)
 
 
 def get_factorial(num):
-
+    fact=1
     for i in range(num,0,-1):
-        print(i)
 
-get_factorial(6)
+        fact=fact*i
+        print(i,fact)
+        print("get_fact:", fact)
+get_factorial(5)
+
+def get_fact(num):
+    fact=6
+    for i in range(num,0,-1):
+        fact=fact*i
+        print(i,fact)
+
+get_fact(5)
+
+##################################
+
+#function with default parameters value:
+
+def addition_nums(x,y=20,z=30):
+    print(f"addition of x: {x}, y{y}, z{z}:",x+y+z)
+
+addition_nums(40)
+
+#overwrite default parameters value
+
+addition_nums(30,20)
+
+
+
+
+
+
