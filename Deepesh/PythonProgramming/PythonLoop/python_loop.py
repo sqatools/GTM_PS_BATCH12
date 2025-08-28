@@ -66,7 +66,7 @@ for k in range(15):
     print(k)
 
 print("_" * 50)
-# write a python program add all value from 1 to 10
+
 # import pdb;
 #
 # pdb.set_trace()
@@ -194,6 +194,7 @@ print()
 print("_"*50)
 ##############################################
 # write a python program to check two string are anagram to each other.
+"""
 s1 = "aPython"
 s2 = "yohtnP"
 anagram = True
@@ -205,14 +206,13 @@ for char in s1:
     else:
         anagram = False
         break
-
+"""
+"""
 
 if anagram == True and len(s1) == len(s2):
     print("These string are anagram :", s1, s2)
 else:
     print("These string are not anagram :", s1, s2)
-
-
 """
 num = 15
 prime = True
@@ -223,7 +223,7 @@ for i in range(2, num): # 2
         break
     else:
         continue
-"""
+
 
 
 #############################################

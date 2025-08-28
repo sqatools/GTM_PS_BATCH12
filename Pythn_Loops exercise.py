@@ -17,7 +17,7 @@ for i in range(1,10):
             else:
                 print(" ", end=" ")
         if i in [6,7,8]:
-            if j in [5,9]:
+            if j in [9]:
                 print("*",end="")
         if i in [9]:
             if j in [1,2,3,4,5,9]:
