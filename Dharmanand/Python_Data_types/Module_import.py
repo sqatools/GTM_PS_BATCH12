@@ -84,4 +84,30 @@ get_primenumber(100)
 
 
 
+def pattern(num1):
+    for i in range(num1):
+        for j in range(num1):
+            if i==1:
+                if j in [1,2,3,4,5,6]:
+                    print("*", end ="")
+            else:
+                    print(" ", end =" ")
+            if i==2:
+                if j in [1]:
+                    print("*", end="")
+            else:
+                print(" ", end=" ")
 
+        print()
+
+pattern(7)
+
+##################################
+list3 = [3,5,7]
+def factorial(list3):
+    for num in list3:
+        fact=1
+        fact=fact*num
+        print(list3,factorial)
+
+factorial(list3)
