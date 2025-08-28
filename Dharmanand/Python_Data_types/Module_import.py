@@ -46,7 +46,41 @@ addition_nums(40)
 
 addition_nums(30,20)
 
+###class work
+#write a python function get prime number:
 
+def prime_number(i):
+    for i in range(1,6):
+        if i%2==0:
+            print(i,"not prime number")
+        else:
+            print(i,"prime number")
+prime_number(5)
+
+###===============
+##2. write a python function to get O pattern
+def pattern(num1):
+    for i in range(num1):
+        for j in range(num1):
+            if i==0 or j==0 or i==num1-1 or j==num1-1:
+                print("*", end ="")
+            else:
+                print(" ", end =" ")
+
+        print()
+
+pattern(7)
+##write a python function to get list of prime numbers from 1 to 100:
+def get_primenumber(i):
+    for i in range(1,100):
+        if i%2 == 0:
+            print(i, "not prime number")
+        else:
+            print(i,"prime number")
+
+get_primenumber(100)
+
+###########################################################
 
 
 
