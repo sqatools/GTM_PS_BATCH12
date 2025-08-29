@@ -2,9 +2,7 @@
 
 
 
-num = int(input("Enter a number: "))
-
-if num % 3 == 0 or num % 7 == 0:
-   print("Square:", num ** 2)
-else:
-   print("Cube:", num ** 3)
+#num = int(input("Enter a number: "))
+for i in range(1,101):
+  if i % 11 == 0:
+   print(i)
