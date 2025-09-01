@@ -8,3 +8,4 @@ for char in s3:
         continue
 
 print("all vowels:", vowels_count)
+
