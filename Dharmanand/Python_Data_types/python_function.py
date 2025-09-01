@@ -75,6 +75,16 @@ print("add:", a)
 print("sub:", b)
 print("multi: ", c)
 
+#================================
+def addition1(*args):
+    print(num, args)
+    print("square value:", num**2 )
+    sum_val = 0
+    for val in args:
+        print(val)
+        sum_val=sum_val+val
+
+addition(4,5,6)
 
 
 
