@@ -254,3 +254,114 @@ print("result :", result)  # Helo WarnigPyth
 # Q1 :
 # s1 = "Hello Python Programming"
 # output  = "Programming Hello Python"
+
+
+print("_" * 50)
+########################
+# count method : this count the number of occurrences of any character or substring in the target string.
+
+str_a = "Learning Python is Fun, and very good morning"
+# get count of i character
+print("count of i  :", str_a.count('i'))
+# count of i  : 3
+
+# count of substring ing
+print("count if ing substring :", str_a.count('ing'))
+# count if ing substring : 2
+
+
+print("_"*50)
+################################
+# program to get count of each character
+str_b = "Python Programming"
+for char in str_b:
+    print(char, ":", str_b.count(char))
+
+
+
+print("_"*50)
+######################
+# index method: this method return the index position of any character/word
+str_c= "Learning Python step by step"
+print("index of P :", str_c.index('P'))  # index of P : 9
+
+print("index of step: ", str_c.index("step"))  # index of step:  16
+
+# print("index of W:", str_c.index("W"))
+# ValueError: substring not found
+
+
+print("_"*50)
+######################
+# find method:  this method return the index position of existing character or word, if target char is not available then
+# it will return -1
+
+str_d = "Python Programming"
+print("check w is available :", str_d.find("w"))
+# check w is available : -1
+
+print("index of g :", str_d.find("g"))
+# index of g : 10
+
+
+print("_"*50)
+######################
+# split method:  This method split the string in list of characters from target char/delimeter
+
+str_e = "India is best cricket team in the world"
+word_list1 = str_e.split(" ")
+print(word_list1)
+# ['India', 'is', 'best', 'cricket', 'team', 'in', 'the', 'world']
+
+
+str_f = "India#is#best#cricket#team"
+print(str_f.split("#"))
+# ['India', 'is', 'best', 'cricket', 'team']
+
+url = "https://www.facebook.com"
+wl=  url.split(".")
+print(wl)
+w1 = wl[0].split(":")[0]
+print(w1)  # https
+w2 = wl[0].split("://")[1]
+print(w2) # www
+w3 = wl[1]
+print(w3) # facebook
+w4 = wl[2]
+print(w4) # com
+
+
+print("_"*50)
+######################
+# replace method: This method replace any word1 with word2 in given string.
+
+str_j = "Python is easy to Learn"
+output = str_j.replace("Python", "Java")
+print(output) # Java is easy to Learn
+
+
+result2= str_j.replace("Python", "C++").replace("easy", "hard")
+print(result2) # C++ is hard to Learn
+
+# replace specific number of times the value.
+str_k = "Python is easy to Learn and Python can Solve any question, Python community is very strong"
+result_k = str_k.replace("Python", "JavaScript", 2)
+print("result_k :", result_k)
+# JavaScript is easy to Learn and JavaScript can Solve any question, Python community is very strong
+
+
+
+# question:
+# Q1: write a python program to convert the all lower case words in upper case.
+str1= "USA is fighting with INDIA IN TRADE"
+# 1.  get list of word using split method.
+# 2.  loop through each word from word list
+# 3.  if word.isupper then print(word.lower)
+# 4.  else word.islower then print(word.upper)
+
+
+
+
+
+
+
