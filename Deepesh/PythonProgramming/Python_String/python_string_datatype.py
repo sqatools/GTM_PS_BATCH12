@@ -353,15 +353,158 @@ print("result_k :", result_k)
 
 # question:
 # Q1: write a python program to convert the all lower case words in upper case.
-str1= "USA is fighting with INDIA IN TRADE"
+str1= "USA is fighting With INDIA IN TRADE"
 # 1.  get list of word using split method.
 # 2.  loop through each word from word list
 # 3.  if word.isupper then print(word.lower)
 # 4.  else word.islower then print(word.upper)
 
+print("_"*50)
+################################################################
+output = ""
+word_list = str1.split(" ")
+
+for word in word_list:
+    if word.isupper():
+        output = output + word.lower() + " "
+    elif word.islower():
+        output = output + word.upper() + " "
+    else:
+        output = output + word + " "
+
+print("output :", output)
+# usa IS FIGHTING With india in trade
+
+print("_"*50)
+###############################################
+# strip method : This method remove all the trailing spaces from given string
+# trailing space :  space as prefix or postfix
+str_b = "   Python Programming   "
+print(str_b)
+# remove all trailing spaces
+print(str_b.strip())
+
+# lstrip and rstrip : these methods will removed left side and right side spaces.
+print(str_b.lstrip()) # remove left side spaces
+print(str_b.rstrip()) # remove right side spaces
+
+# remove all spaces in the givens tring
+print(str_b.replace(" ", "")) # remove spaces from all the places.
+
+
+print("_"*50)
+#################
+#join method : this method help us to join each character of string with any specific character or special character.
+str_c = "Python"
+result = "-".join(str_c)
+print("Result :", result)  # P-y-t-h-o-n
+
+# join each word of the list with space and create a string.
+list1 = ['India', 'is', 'best', 'cricket', 'team', 'in', 'the', 'world']
+result2 = " ".join(list1)
+print("Result2 :", result2)
+# India is best cricket team in the world
+
+
+print("_"*50)
+#################
+# check given string only contains numbers.
+str_1 = "345664536"
+str_2 = "546 6554"
+print("str_1 is numeric :", str_1.isnumeric()) # True
+print("str_2 is numeric :", str_2.isnumeric()) # False
+
+
+print("_"*50)
+##################
+# alnum method : this method check given string contains alphanueric values.
+str_3 = "Python123"
+str_4 = "Programing 456"
+print("str_3 is alpha numeric :", str_3.isalnum()) #  True
+print("str_4 is alpha numeric :", str_4.isalnum()) #  False
+
+print("_"*50)
+#################################
+# write a python program to get all the emails and phones number given string.
+
+users_details = """
+On the tense 5654564545 final day 6754564598 of the 
+Old  user3@yahoo.com Trafford user1@test.com Test, 
+Shubman Gill lingered in the 90s 
+for 36 deliveries.  user2@faceboo.com Since 2008,
+there  user4@gmail.com have 8854564545 been 275 scores 
+of 90 or more for """
+
+
+word_list = users_details.split(" ")
+for word in word_list:
+    if word.isnumeric() and len(word) == 10:
+        print(word)
+
+    if "@" in word and "gmail.com" in word:
+        print(word)
+
+
+"""
+5654564545
+6754564598
+user4@gmail.com
+8854564545
+
+"""
+
+str_d= "heLLo We aRe learning pyThoN"
+print(str_d.title()) # Hello We Are Learning Python
+print(str_d.capitalize())  # Hello we are learning python
+print(str_d.swapcase()) # HEllO wE ArE LEARNING PYtHOn
+
+print("_"*50)
+########################################################
+# write a python program to remove duplicate words from given string.
+str_k = "Rahul Mohit Manjeet Raghav Rahul Mohit Manjeet"
+result = ""
+word_list = str_k.split(" ")
+for word in word_list:
+    if word not in result:
+        result = result + word + " "
+    else:
+        continue
+
+print("result string :", result)
+# Rahul Mohit Manjeet Raghav
+
+
+print("_"*50)
+########################################################
+# wright python program to get a longest word from given string.
+str_t = "We are Learning Python Programming, Its Fun to Learn"
+max_len = 0
+long_word = ""
+
+word_list = str_t.split(" ")
+for word in word_list:
+    word_len = len(word)
+    if word_len > max_len: # 3 > 2 | 8 > 3 | 6 > 8 | 12 > 8
+        max_len = word_len # 3, 8, 12
+        long_word = word   # we, are, Learning, Programming,
+        print(max_len, long_word)
+    else:
+        continue
+
+
+print("Longest word :", long_word)
+# Longest word : Programming,
 
 
 
+# Q1 :  write a python program repeat character double in given string.
+str1 = "Python"
+output = "PPyytthhoonn"
 
-
-
+# Q2 : write a python program to get all house numbers from given string.
+str2 = """
+Pradeep house no. is HC-45623
+sourabh house no. is HC-23423
+Haswath house no is HC-54543
+Dharmendra house no. is HC-345643
+"""
