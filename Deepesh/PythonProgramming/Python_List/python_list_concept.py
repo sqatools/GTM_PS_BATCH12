@@ -176,3 +176,132 @@ list_A = [5, 7, 22, 5, 17, 12, 34, 56]
 list_A[2:5] = [100, 200, 300]   # These three values will replace 22, 5, 7
 print("list_A :", list_A)
 # [5, 7, 100, 200, 300, 12, 34, 56]
+
+
+print("_"*50)
+######################################
+# count method :  This method return the count/occurrences of any specific value in the list
+list_11 = [4, 6, 8, 4, 6, 8, 3, 4]
+print("count of 6 :", list_11.count(6))  # count of 6 : 2
+print("count of 4 :", list_11.count(4))  # count of 4 : 3
+
+
+print("_"*50)
+######################################
+# index method :  This method return index position of any value in list
+list_11 = [4, 6, 18, 4, 16, 8, 13, 4]
+print("index of 16 :", list_11.index(16))
+# index of 16 : 4
+
+
+print("_"*50)
+######################################
+# sort method : Sort method can sort the list values in ascending or descending order. It updates the original
+# list values
+list_11 = [4, 6, 18, 4, 16, 8, 13, 14]
+# sort list values in ascending order
+list_11.sort()
+print("list_11:", list_11)  # [4, 4, 6, 8, 13, 14, 16, 18]
+
+list_12 = [17, 6, 18, 4, 16, 8, 13, 14]
+# sort in descending order
+list_12.sort(reverse=True)
+print("list_12 :", list_12)
+# [18, 17, 16, 14, 13, 8, 6, 4]
+
+print("_"*50)
+######################################
+# sorted function : this function sort the list values in both ascending or descending order.
+# sorted function does not modify the original list values.
+list_13 = [11, 6, 18, 5, 16, 8, 10, 14]
+result1 = sorted(list_13)
+result2 = sorted(list_13, reverse=True)
+print("ascending result :", result1) # [5, 6, 8, 10, 11, 14, 16, 18]
+print("descending result :", result2) # [18, 16, 14, 11, 10, 8, 6, 5]
+
+
+print("_"*50)
+######################################
+# reverse method : This method reverse the list values and modify original list
+list_14 = [5, 6, 7, 22, 55, 11]
+list_14.reverse()
+print("list_14 :", list_14)
+# list_14 : [11, 55, 22, 7, 6, 5]
+
+
+print("_"*50)
+######################################
+# reversed function : This function reverse the list values and does not modify the original list
+list_15 = [5, 6, 7, 22, 55, 11, 15, 37]
+
+result = list(reversed(list_15))
+print("reverse values :", result)
+# [37, 15, 11, 55, 22, 7, 6, 5]
+
+
+
+print("_"*50)
+######################################
+# copy content from one list to another list
+
+# Shallow copy :  When we assign one list data to another list, then it is called shallow copy
+# -> In this concept, if we will modify any list data, then changes will reflect on the both lists.
+
+list_P = [5, 7, 9, 2, 15]
+list_Q = list_P
+list_Q.append(100)
+list_P.append(200)
+
+print("list_p :", list_P) # [5, 7, 9, 2, 15, 100, 200]
+print("list_Q :", list_Q) # [5, 7, 9, 2, 15, 100, 200]
+
+###############################################
+# Deep copy : In deep copy if we will do changes in one list, then it will not reflect in another list.
+
+list_x = [5, 7, 33, 55, 66, 7]
+list_y = list_x.copy()
+
+list_y.append(500)
+list_x.append(600)
+list_x.append(800)
+list_y.append('Python')
+print("list_x :", list_x) # [5, 7, 33, 55, 66, 7, 600, 800]
+print("list_y :", list_y) # [5, 7, 33, 55, 66, 7, 500, 'Python']
+
+
+print("_"*50)
+#####################################################
+############## Max, min, sum #######################
+
+list_15 = [5, 7, 33, 55, 66, 7, 600, 800]
+print("Max value :", max(list_15)) # Max value : 800
+print("Min value:", min(list_15)) # Min value: 5
+print("Sum of values :", sum(list_15)) # Sum of values : 1573
+
+print("_"*50)
+######################### List comprehension ###############
+list1 = [4, 8, 7, 2, 6, 9, 12, 13]
+
+# write a program to get odd values
+for val in list1:
+    if val%2 != 0:
+        print(val, end=" ")
+    else:
+        continue
+
+# 7 9 13
+
+# solve program with list comprehension
+result = [val for val in list1 if val%2 != 0]
+print("result :", result)
+# result : [7, 9, 13]
+
+
+########### nested loop with list comprehension ############
+list_2 = ['a', 'b', 'c']
+list_3 = ['p', 'q']
+#output = [('a', 'p'), ('a', 'q'), ('b', 'p'), ('b', 'q'), ('c', 'p'), ('c', 'q')]
+
+result2 = [(x, y) for x in list_2 for y in list_3]
+print("result 2:", result2)
+# [('a', 'p'), ('a', 'q'), ('b', 'p'), ('b', 'q'), ('c', 'p'), ('c', 'q')]
