@@ -194,7 +194,7 @@ print(dir(str))
 """
 
 print("_" * 50)
-#############
+#############5fr
 # upper(), lower() :  These method convert the given string from lower to upper and upper to lower case.
 
 str3 = "Learning Python"
@@ -508,5 +508,4 @@ sourabh house no. is HC-23423
 Haswath house no is HC-54543
 Dharmendra house no. is HC-345643
 """
-
 
