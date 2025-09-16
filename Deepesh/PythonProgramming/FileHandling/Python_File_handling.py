@@ -93,7 +93,50 @@ def read_file_with_context_manager(filepath):
     print("close status outside context manager :", file.closed)
 
 
-read_file_with_context_manager("read_data.txt")
+#read_file_with_context_manager("read_data.txt")
+
+print("_"*40)
+#######################################
+# 1. read specific number of characters.
+
+def number_of_bytes(filepath, no_of_char):
+    with open(filepath, "r") as file:
+        data = file.read(no_of_char)
+        print(data)
+
+#number_of_bytes("read_data.txt", 28)
+
+# 2. read lines from file.
+
+def read_line_of_file(filepath, no_of_lines):
+    with open(filepath, "r") as file:
+        # readline method return the first line of file.
+        # but we repeat same process again to readline, then it will move to next line automatically.
+        for _ in range(no_of_lines):
+            data = file.readline()
+            print(data, end="")
+
+print("_"*50)
+#read_line_of_file("read_data.txt", 3)
 
 
 
+# 3. read list of lines from file using readlines method.
+
+def read_list_of_lines_of_file(filepath, start, end):
+    with open(filepath, "r") as file:
+        # readlines method return the list of lines from target file.
+        lines_list = file.readlines()
+        for i in range(start, end+1):
+            print(lines_list[i], end="")
+
+
+read_list_of_lines_of_file("read_data.txt", 3, 8)
+"""
+3.Behind the tears, the tweaks and the Tamil cinema moment
+4.that defined a comeback no one was sure would arrive
+5.Can India's unshackled next gen take old lessons forward?
+6.Can India's unshackled next gen take old lessons forward?
+7.Suryakumar Yadav's team has embraced the freedom template
+8.championed by Rohit Sharma, but now comes the challenge of
+"""
