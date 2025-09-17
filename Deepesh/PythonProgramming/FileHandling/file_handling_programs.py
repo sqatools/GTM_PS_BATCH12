@@ -50,7 +50,7 @@ def replace_word(file_path, word1, word2):
     updated_data = file_data.replace(word1, word2)
 
     # overwrite updated content  to the file
-    with open(file_path, "w")as file:
+    with open(file_path, "w") as file:
         file.write(updated_data)
 
 
