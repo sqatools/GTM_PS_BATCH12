@@ -124,13 +124,90 @@ print("list_A:",list_A)
 list_11=[4,6,8,4,6,8,3,4]
 print("count of 6:",list_11.count(6))   #count of 6: 2
 print("count of 4:",list_11.count(4))   #count of 4: 3
-
+print("_"*50)
 #Index method:this method return  index position of any value in list
 list_11=[4,6,18,4,16,8,4]
 print("index of 16:",list_11.index(16))   #index of 16: 4
+print("_"*50)
+# sort methood: sort method can sort the list values in ascending or descending order it updaters the original list values
+list_11=[4,6,18,4,16,8,13,14]
+# sort list values in ascending order
+list_11.sort()
+print("list_11:",list_11)    #list_11: [4, 4, 6, 8, 13, 14, 16, 18]
 
+list_12=[17,6,18,4,16,8,13,14]
+# sort is descending order
+list_12.sort(reverse=True)
+print("list_12:",list_12)   #list_12: [18, 17, 16, 14, 13, 8, 6, 4]
 
+##sorted function: this function sort the list values in both ascending or decending order
+#Sorted function does not modify the original list values
+list_13=[11,6,18,5,16,8,10,14]
+result=sorted(list_13)
+result=sorted(list_13,reverse=True)
+print("ascending result:",result)
+print("descending result:",result)
+# ascending result: [18, 16, 14, 11, 10, 8, 6, 5]
+# descending result: [18, 16, 14, 11, 10, 8, 6, 5]
+print("_"*50)
+##Reverse method:This method reverse the list values and modifiy original list
+list_14=[5,6,7,22,55,11]
+list_14.reverse()
+print("list_14:",list_14)  #list_14: [11, 55, 22, 7, 6, 5]
 
+# reverse function:this function reverse the list values and does not modify the original list
+list_15=[5,6,7,22,55,11,15,37]
+result=list(reversed(list_15))
+print("reverse value:",result)   #reverse value: [37, 15, 11, 55, 22, 7, 6, 5]
+print("_"*50)
+#copy content from one list  to another list
+# shallown copy: when we asing one list data to another list,then it is called shallow copy
+#->In this concept ,if we will modify any list data, then changes will reflet on the both lists
+list_p=[5,7,9,2,15]
+list_q=list_p
+list_q.append(100)
+list_p.append(200)
+print("list_p:",list_p)   #list_p: [5, 7, 9, 2, 15, 100, 200]
+print("list_q:",list_q)   #list_q: [5, 7, 9, 2, 15, 100, 200]
+
+##deep copy:In deep copy if we will do changes in one list,then it will not refect in other list
+list_x=[5,7,33,55,66,7]
+list_y=list_x.copy()
+list_y.append(500)
+list_x.append(600)
+list_x.append(800)
+list_y.append('python')
+print("list_x:",list_x)   #list_x: [5, 7, 33, 55, 66, 7, 600, 800]
+print("list_y:",list_y)   #list_y: [5, 7, 33, 55, 66, 7, 500, 'python']
+
+###########################################
+### Max,Min,Sum ###
+list_15=[8,45,14,25,78,100,65,78,19]
+print("max value:",max(list_15))     #max value: 100
+print("min value:",min(list_15))     #min value: 8
+print("sum of value:",sum(list_15))  #sum of value: 432
+print("_"*50)
+##################
+## list comprehesion
+list1=[5,7,8,4,1,2,25]
+#write a program to get odd values
+for val in list1:
+    if val%2!=0:
+        print(val,end=" ")
+    else:
+        continue
+
+# Solve program with list comparesion
+result=[val for val in list1 if val%2!=0]
+print("result:",result)  #result: [5, 7, 1, 25]
+print("_"*50)
+
+##### nested loop with list compreshion
+list_2=['a', 'b', 'c']
+list_3=['p','q']
+result2=[(x,y) for x in list_2 for y in list_3]
+print("result2:",result2)
+# result2: [('a', 'p'), ('a', 'q'), ('b', 'p'), ('b', 'q'), ('c', 'p'), ('c', 'q')]
 
 
 
