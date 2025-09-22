@@ -1,0 +1,14 @@
+{
+  "username": "john123",
+  "password" : "User@12345",
+  "email": "john1@gmail.com",
+  "phone" : 879798789734,
+  "browser" : "Chrome",
+  "Device" : {
+    "memory" : "12 GB",
+    "OS" : "iOS",
+    "storage": "1 TB"
+
+  }
+
+}
