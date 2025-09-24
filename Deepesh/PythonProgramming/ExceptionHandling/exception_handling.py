@@ -8,9 +8,13 @@ def exception_handling(n1, n2):
         print(e)
         print("Can not add integer with string")
 
-# exception_handling(40, 'Hello')
+#exception_handling(40, 'Hello')
 # print("Good morning")
 
+"""
+unsupported operand type(s) for +: 'int' and 'str'
+Can not add integer with string
+"""
 ################## Raise exeception explicitly #########################
 
 def exception_handling_with_raise(n1, n2):
@@ -23,8 +27,22 @@ def exception_handling_with_raise(n1, n2):
         raise
 
 
-# exception_handling_with_raise(30, 50)
+#exception_handling_with_raise(30, 'Hello')
 # print("Good Morning")
+
+"""
+Can not add integer with string
+Traceback (most recent call last):
+  File "E:\Trainings\GTM_PS_Batch12_July25\GTM_PS_BATCH12\Deepesh\PythonProgramming\ExceptionHandling\exception_handling.py", line 30, in <module>
+    exception_handling_with_raise(30, 'Hello')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\Trainings\GTM_PS_Batch12_July25\GTM_PS_BATCH12\Deepesh\PythonProgramming\ExceptionHandling\exception_handling.py", line 22, in exception_handling_with_raise
+    add = n1 + n2
+          ~~~^~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+"""
 
 ################## try - except - else #########################
 
@@ -153,5 +171,5 @@ def handle_multiple_exception(n1, n2, n3):
         raise e
 
 
-handle_multiple_exception(30, 50, 5)
+#handle_multiple_exception(30, 50, 5)
 
