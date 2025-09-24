@@ -27,6 +27,6 @@ def exception_handling (n1,n2):
 
 
 
-exception_handling(40,Hello)
+exception_handling(40,100)
 print("good morning")
 
