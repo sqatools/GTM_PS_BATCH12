@@ -6,7 +6,7 @@ from selenium import webdriver
 
 from selenium.webdriver.common.by import By
 
-Browser= "edge"
+Browser= "Chrome"
 driver = None
 if Browser.lower() == "chrome":
     driver= webdriver.Chrome()
