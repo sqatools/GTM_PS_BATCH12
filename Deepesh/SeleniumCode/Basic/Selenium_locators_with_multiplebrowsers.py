@@ -53,7 +53,7 @@ print("Image attribute value :", elem.get_attribute("alt"))
 time.sleep(10)
 driver.close()
 
-# Home work
+# Homework
 # Automate facebook login page and signup.
 
 
