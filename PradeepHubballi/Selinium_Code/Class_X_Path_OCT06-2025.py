@@ -34,6 +34,33 @@ driver.find_element(By.XPATH, "//*[@data-testid='royal-pass']").send_keys("user@
 # click on create new account button
 driver.find_element(By.XPATH, "//*[@data-testid='open-registration-form-button']").click()
 
+#  Signup First Name
+driver.find_element(By.XPATH, "//input[@name='firstname']").send_keys("Pradeep")
+
+# Signup Last Name
+driver.find_element(By.XPATH, "//input[@name='lastname']").send_keys("Hubballi")
+##//input[@name="firstname"]
+##//input[@name="lastname"]
+##//*[@name="birthday_day"]
+
+
+#
+driver.find_element(By.XPATH, "//*[@name='birthday_day']").send_keys("06")
+##birthday_month
+driver.find_element(By.XPATH, "//*[@name='birthday_month']").send_keys("JUNE")
+
+driver.find_element(By.XPATH, "//*[@name='birthday_year']").send_keys("1987")
+
+driver.find_element(By.XPATH, "//input[@ value='2']").click()
+#//input[@ value="2"]
+
+driver.find_element(By.XPATH, "//*[@name='reg_email__']").send_keys("Pradeep.h147@gmail.com")
+
+
+driver.find_element(By.XPATH, "//*[@data-type='password']").send_keys("4564564oip")
+##//*[@name='reg_email__']
+#//*[@data-type="password"]
+
 
 # static wait as 10 sec
 time.sleep(10)
