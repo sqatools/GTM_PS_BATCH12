@@ -31,5 +31,5 @@ cap = ""
 for i in str1:
     if i.isupper():
         print(i)
-        cap = cap + i
+        
 print(cap)
