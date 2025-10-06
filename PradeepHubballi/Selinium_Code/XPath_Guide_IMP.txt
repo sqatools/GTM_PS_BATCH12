@@ -1,0 +1,46 @@
+1. Absolute XPath : When we follow entire path in DOM  to locate the element, then it is called Absolute XPATH.
+                    e.g   /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+
+2. Relative XPath : Relative XPath locate the element with the help any unique attribute value of element.
+                    e.g.    //tagname[@attribute='value']              or   //*[@attribute='value']
+                    ->      //input[@data-testid='royal-email']        or   //*[@data-testid='royal-email']
+                    ->      //input[@name='pass']                      or   //*[@name='pass']
+                    ->      //input[@placeholder="Email address or phone number"]    or   //*[@placeholder="Email address or phone number"]
+
+
+
+Basic XPath Methods:
+i)    text() method: Get element with the help of text visible on UI.
+                    e.g.  //tagname[text()='value']
+                      #  https://www.nseindia.com/
+                     -> //a[text()='Market Data']
+                     -> //a[text()='Market Turnover']
+
+ii)   contains method: contains method help us to identify the element with help of partial values
+                       ->  partial value could be a text value or attribute value.
+                       e.g.  //tagname[contains(@attribute, 'partial value')]
+                       ->    //input[contains(@data-testid,"royal-e")]
+                       ->    //a[contains(@data-testid,"open-registration")]
+
+                       e.g. //tagname[contains(text(), 'partial value')]
+                       ->   //a[contains(text(), 'Create new account')]
+                       ->   //a[contains(text(), 'new account')]
+                       ->   //div[contains(text(), 'Market Statistics')]
+
+iii)  and/or condition:  with the help of and/or condition we can locate element with multiple attribute
+                         e.g. //tagname[@attrib1='value' and @attrib2='value']
+                         ->   //input[@name='firstname' and @aria-label='First name']
+
+                         e.g.  //tagname[@attrib1='value' or @attrib2='value']
+                         ->    //input[@name='firstname' or @data-type='text']
+
+iv)   starts-with: starts-with method help us to locate the element with starting value of attribute
+                         e.g.   //tagname[starts-with(@attribute='value')]
+                         ->     //input[starts-with(@aria-label, "Mobile number")]
+
+
+# IF multiple elements having same properties then we can use indexing to locate the element
+                         -> (//button[starts-with(text(), 'Sign Up')])[1]
+
+# Home Work
+# Automate Login Page and Signup page with XPATH only
