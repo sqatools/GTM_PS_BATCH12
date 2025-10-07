@@ -29,14 +29,13 @@ driver.find_element(By.XPATH,'//select[@name="birthday_year"]').send_keys("1999"
 
 driver.find_element(By.XPATH,'//input[@value="2"]').click()
 
-driver.find_element(By.XPATH,'//input[@aria-label="Mobile number or email"]').send_keys("989283849")
+driver.find_element(By.XPATH,'//input[@aria-label="Mobile number or email"]').send_keys("9892838469")
 
 driver.find_element(By.XPATH,'//input[@autocomplete="new-password"]').send_keys("AbcXyz@123")
 
 driver.find_element(By.XPATH,'//button[@name="websubmit"]').click()
 
-# static wait as 10 sec
-time.sleep(10)
 
-# close browser
+time.sleep(10)
+print(driver.title)
 driver.close()
