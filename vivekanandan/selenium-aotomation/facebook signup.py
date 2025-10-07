@@ -1,6 +1,4 @@
-"""
-pip install selenium
-"""
+
 
 import time
 from selenium import webdriver
@@ -15,18 +13,19 @@ driver.get("https://www.facebook.com/r.php?entry_point=login")
 
 driver.find_element(By.NAME, "firstname").send_keys("vivek")
 driver.find_element(By.NAME, "lastname").send_keys("rock")
-driver.find_element(By.NAME, "reg_email__").send_keys("vivekrock.com")
+driver.find_element(By.NAME, "reg_email__").send_keys("vivek@gmail.com")
 driver.find_element(By.NAME, "reg_passwd__").send_keys("Vivek@123")
 
 
 driver.find_element(By.ID, "month").send_keys("apr")
 driver.find_element(By.ID, "day").send_keys("25")
 driver.find_element(By.ID, "year").send_keys("1993")
-
+driver.find_element(By.XPATH, "//input[@name='sex' and @value='2']").click()
 time.sleep(5)
 
 driver.find_element(By.NAME, "websubmit").click()
 
+print(driver.title)
 time.sleep(20)
 
 driver.close()
