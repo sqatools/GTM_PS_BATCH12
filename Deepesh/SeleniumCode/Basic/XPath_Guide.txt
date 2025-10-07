@@ -44,3 +44,39 @@ iv)   starts-with: starts-with method help us to locate the element with startin
 
 # Home Work
 # Automate Login Page and Signup page with XPATH only
+
+##################### Advance XPath Methods ####################
+
+1. parent :
+          e.g.   //ref_tagname[@attrib='value']//parent::tar_tagname[@attrib='value']
+          ->     //td[text()='Pune']//parent::tr
+          ->     //label[text()='FROM']//parent::div/input
+
+2. ancestor:
+          e.g.   //ref_tagname[@attrib='value']//ancestor::tar_tagname[@attrib='value']
+          ->     //input[@value='checkbox']//ancestor::table
+          ->     //td[text()='6003']//ancestor::html//a[text()='Manual Testing']
+
+3. following : Any web element present below side of with respect to reference element on web page
+           e.g.   //ref_tagname[@attrib='value']//followings::tar_tagname[@attrib='value']
+           ->     //input[@name="fromcity"]//following::input[@id="street_address2"]
+
+4. following-sibling : Elder sibling
+          e.g.   //ref_tagname[@attrib='value']//followings-sibling::tar_tagname[@attrib='value']
+          ->     //table[@id='cities']//tr[5]//following-sibling::tr
+          ->     //label[text()='FROM']//following-sibling::input
+
+5. preceding : Any web element present upper side with respect to reference element on web page
+           e.g.  //ref_tagname[@attrib='value']//preceding::tar_tagname[@attrib='value']
+           ->    //input[@name="fromcity"]//preceding::h1
+
+6. preceding-sibling : Younger sibling
+        e.g.   //ref_tagname[@attrib='value']//preceding-sibling::tar_tagname[@attrib='value']
+         ->    //table[@id='cities']//tr[5]//preceding-sibling::tr
+         ->    //span[contains(text(), 'Cab booking')]//preceding-sibling::input
+
+
+
+
+ # Home work
+ Practice All advance xpath method with Facebook Login Page and Signup Page.
