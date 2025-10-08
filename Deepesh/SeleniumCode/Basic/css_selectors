@@ -1,0 +1,6 @@
+# CSS Selector
+
+1. ID :        e.g.     #birthday, #male
+2. class:      e.g.     .post-title.entry-title
+3. attribute:  e.g.     div>input[id='billing_name']
+4. start-with: e.g.     input[placeholder^="Email address"], input[placeholder^="Passw"]

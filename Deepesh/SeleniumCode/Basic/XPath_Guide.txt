@@ -42,8 +42,16 @@ iv)   starts-with: starts-with method help us to locate the element with startin
 # IF multiple elements having same properties then we can use indexing to locate the element
                          -> (//button[starts-with(text(), 'Sign Up')])[1]
 
+
+ v) Normalise-space method :   //tagname[normalize-space()='Login']
+                               //button[normalize-space()='Login']
+                               //p[normalize-space()='Forgot your password?']
+
 # Home Work
 # Automate Login Page and Signup page with XPATH only
+
+
+
 
 ##################### Advance XPath Methods ####################
 
