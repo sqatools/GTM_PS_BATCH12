@@ -29,5 +29,37 @@ def perform_hover_operation():
     time.sleep(3)
 
 
-perform_hover_operation()
+#perform_hover_operation()
+
+def drag_and_drop_operation():
+    frame_elem = driver.find_element(By.XPATH, "//iframe[contains(@src, 'photo-manager')]")
+    driver.switch_to.frame(frame_elem)
+
+    image1_elem = driver.find_element(By.XPATH, "//h5[text()='High Tatras']//parent::li")
+    trash_elem = driver.find_element(By.ID, "trash")
+    action.drag_and_drop(image1_elem,  trash_elem).perform()
+
+    time.sleep(5)
+    # get list of images and perform drag and drop operation one by one
+    images_list = driver.find_elements(By.XPATH, "//h5[contains(text(), 'High Tatras')]//parent::li")
+    for image_ele in images_list:
+        trash_elem = driver.find_element(By.ID, "trash")
+        action.drag_and_drop(image_ele, trash_elem).perform()
+        time.sleep(2)
+
+
+#drag_and_drop_operation()
+
+def scroll_to_element():
+    driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
+    home_link_element = driver.find_element(By.XPATH, "//a[@class='home-link']")
+    action.scroll_to_element(home_link_element).perform()
+    time.sleep(5)
+    home_link_element.screenshot("home_link.png")
+    action.click(home_link_element).perform()
+
+scroll_to_element()
+
+
+
 
