@@ -1,0 +1,18 @@
+->  command to install pytest framework
+    -> pip install pytest
+
+->  each test file and test fun has to start with test_ as prefix in the name
+->  command to execute the pytest file
+    ->  python -m pytest -v test_file_path
+
+
+# command to execute the specific test case from terminal.
+  -> python -m pytest -v -k "test_multiplication_fun2" .\test_math_operations.py
+
+  -m  :  root path
+  -v :  verbose or details information in console output
+  -k : "specific test function to execute from test file"
+
+ #  command to execute the test cases on the basis feature grouping
+  ->  python -m pytest -v -m "sanity" .\test_math_operations_makers.py
+
