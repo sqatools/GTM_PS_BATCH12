@@ -16,3 +16,5 @@
  #  command to execute the test cases on the basis feature grouping
   ->  python -m pytest -v -m "sanity" .\test_math_operations_makers.py
 
+
+# execute code with and condition

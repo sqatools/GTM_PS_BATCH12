@@ -1,0 +1,14 @@
+command to install allure report
+
+-> pip install allure-pytest
+
+
+# command to execute automation with allure report path
+->  python -m pytest -v --alluredir=reports/allure-results
+
+
+# generate report from report direcgtory
+-> allure generate reports/allure-results -o reports/allure-report --clean
+
+
+

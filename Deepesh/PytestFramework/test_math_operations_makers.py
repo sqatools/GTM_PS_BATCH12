@@ -4,9 +4,9 @@ pip install pytest
 """
 import pytest
 
-ENV= "PROD"
+ENV= "TEST"
 
-@pytest.mark.skipif(ENV == "PROD", reason="Feature is not avialble in the PROD environment")
+@pytest.mark.skipif(ENV == "PROD", reason="Feature is not available in the PROD environment")
 @pytest.mark.smoke
 def test_addition():
     num1 = 30
@@ -23,6 +23,7 @@ def test_multiplication():
 
 
 @pytest.mark.sanity
+@pytest.mark.xfail
 def test_subtraction():
     num1 = 30
     num2 = 600
@@ -30,6 +31,7 @@ def test_subtraction():
 
 
 @pytest.mark.sanity
+@pytest.mark.xfail
 def test_addition_fun1():
     num1 = 30
     num2 = 40
@@ -50,7 +52,6 @@ def test_subtraction_fun3():
     assert num2 - num1 == 500
 
 
-@pytest.mark.nonfun
 def test_division():
     num1 = 30
     num2 = 4
