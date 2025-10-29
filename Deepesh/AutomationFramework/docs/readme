@@ -1,0 +1,5 @@
+# command to install html report library
+ -> pip install pytest-html
+
+# command to generate report from commandline
+ -> python -m pytest -v .\tests\open_hrm_test\ --html=logs/report.html

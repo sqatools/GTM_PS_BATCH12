@@ -1,0 +1,11 @@
+{
+  "add_users" : {
+    "user_role" : "Admin",
+    "user_status" : "Enabled",
+    "password" : "user@123",
+    "conf_pass" : "user@123",
+    "username" : "TechUser123",
+    "emp_name" : "Ravi M B"
+
+  }
+}
