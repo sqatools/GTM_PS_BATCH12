@@ -1,0 +1,31 @@
+Types of API
+-> SOAP API : this API maintain state of the operation.
+-> Rest API :  This API does not maintain state of the operation.
+
+Type of API as per accessibility:
+->  PRIVATE API :  Private APIs are accessible in orgnization only.
+->  PUBLIC API :  Public APIs are available for everyone to access.
+->  PARTNER API :  Partner API are paid API, that user has to purchase the subscription.
+e.g  zomoto purchased google map API.
+
+_________________________________
+HTTP Methods:
+
+GET : Get exiting data from data base.
+POST:  Create new entry.
+PUT : Update exiting entry or create a new entry.
+PATCH : Update specific field of existing data in database.
+DELETE:  Delete entry from database.
+
+API Status code:
+___________________
+
+100 - 199:  Information response.
+200 - 299:  Any success response.
+300 - 399 : Re-directional response.
+400 - 499:  Client Error.
+500 - 599:  Server Error.
+
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#information_responses
+
+
