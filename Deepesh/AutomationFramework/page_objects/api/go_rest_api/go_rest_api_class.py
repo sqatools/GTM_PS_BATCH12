@@ -9,3 +9,6 @@ class GoRestAPI(APIBase):
     def add_new_resource(self):
         res, st_code = self.post_method(url=users_api_url, headers=user_headers, payload=user_payload)
         return res, st_code
+
+
+
