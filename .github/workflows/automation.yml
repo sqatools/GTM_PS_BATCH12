@@ -21,10 +21,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        working-directory:  Deepesh/AutomationFramework
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        
 
     - name: Run Automation Tests
       run: |
+        cd Deepesh/AutomationFramework
+        pip install -r requirements.txt
         python -m pytest -v  tests/
